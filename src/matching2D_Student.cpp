@@ -117,15 +117,13 @@ void detKeypointsBrisk(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
     Ptr<BRISK> brisk = BRISK::create();
     brisk->detect(img, keypoints);
 }
-/*
+
 void detKeypointsAkaze(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
-    Math decs;
     Ptr<AKAZE> akaze = AKAZE::create();
-    akaze->detectAndCompute(img, Mat(), kpts, &desc);
-
+    akaze->detect(img, keypoints);
 }
-
+/*
 void detKeypointsSift(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     Math decs;
@@ -151,11 +149,13 @@ void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std:
     }
     else if (detectorType.compare("BRISK") == 0)
     {
+        cout << "Using BRISK keypoint detector" << endl;
         detKeypointsBrisk(keypoints, img, false);
     }
     else if (detectorType.compare("AKAZE") == 0)
     {
-        //detKeypointsAkaze(keypoints, img, false);
+        cout << "Using AKAZE keypoint detector" << endl;
+        detKeypointsAkaze(keypoints, img, false);
     }
     else if (detectorType.compare("SIFT") == 0)
     {
