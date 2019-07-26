@@ -64,17 +64,19 @@ int main(int argc, const char *argv[])
         frame.cameraImg = imgGray;
         
         // rotate the vector and pop the last element up
-        if(dataBuffer.size >= dataBufferSize)
+        if(dataBuffer.size() >= dataBufferSize)
         {
             std::rotate(dataBuffer.begin(), dataBuffer.begin()+1, dataBuffer.end());
             dataBuffer.pop_back();
         }
         dataBuffer.push_back(frame);  
 
+        cout << "buffer size " << dataBuffer.size()<<endl;
+
         //// EOF STUDENT ASSIGNMENT
         cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
 
-        /* DETECT IMAGE KEYPOINTS */
+        /* DETECT IMAGE KEYPOINTS */ 
 
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
@@ -108,7 +110,7 @@ int main(int argc, const char *argv[])
         //// EOF STUDENT ASSIGNMENT
 
         // optional : limit number of keypoints (helpful for debugging and learning)
-        bool bLimitKpts = false;
+        bool bLimitKpts = true;
         if (bLimitKpts)
         {
             int maxKeypoints = 50;
