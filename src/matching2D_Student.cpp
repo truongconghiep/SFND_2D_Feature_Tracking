@@ -101,3 +101,59 @@ void detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool b
         cv::waitKey(0);
     }
 }
+
+void detKeypointsFast(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
+    Ptr<FastFeatureDetector> detector = FastFeatureDetector::create(10, true);
+    detector->detect(img, keypoints);
+}
+
+void detKeypointsBrisk(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
+    Math decs;
+    Ptr<BRISK> brisk = BRISK::create();
+    brisk->detectAndCompute(img, Mat(), keypoints, &desc);
+}
+
+void detKeypointsAkaze(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
+    Math decs;
+    Ptr<AKAZE> akaze = AKAZE::create();
+    akaze->detectAndCompute(img, Mat(), kpts, &desc);
+
+}
+
+void detKeypointsSift(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+{
+    Math decs;
+    Ptr<Feature2D> sift = SIFT::create();
+    sift->detectAndCompute(img, Mat(), kpts, &desc);
+}
+
+void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detectorType, bool bVis=false)
+{
+    if(detectorType.compare("SHITOMASI") == 0)
+    {
+        detKeypointsShiTomasi(keypoints, img, false);
+    }
+    else if (detectorType.compare("HARRIS") == 0)
+    {
+        
+    else if (detectorType.compare("FAST") == 0)
+    {
+        detKeypointsFast(keypoints, img, false);
+    }
+    }
+    else if (detectorType.compare("BRISK") == 0)
+    {
+        detKeypointsBrisk(keypoints, img, false);
+    }
+    else if (detectorType.compare("AKAZE") == 0)
+    {
+        detKeypointsAkaze(keypoints, img, false);
+    }
+    else if (detectorType.compare("SIFT") == 0)
+    {
+        detKeypointsSift(keypoints, img, false);
+    }
+}
