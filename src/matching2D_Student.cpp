@@ -2,6 +2,7 @@
 #include "matching2D.hpp"
 
 using namespace std;
+using namespace cv;
 
 // Find best matches for keypoints in two camera images based on several matching methods
 void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, cv::Mat &descSource, cv::Mat &descRef,
@@ -107,7 +108,7 @@ void detKeypointsFast(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
     Ptr<FastFeatureDetector> detector = FastFeatureDetector::create(10, true);
     detector->detect(img, keypoints);
 }
-
+/*
 void detKeypointsBrisk(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     Math decs;
@@ -129,8 +130,9 @@ void detKeypointsSift(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
     Ptr<Feature2D> sift = SIFT::create();
     sift->detectAndCompute(img, Mat(), kpts, &desc);
 }
+*/
 
-void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detectorType, bool bVis=false)
+void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detectorType, bool bVis)
 {
     if(detectorType.compare("SHITOMASI") == 0)
     {
@@ -138,22 +140,23 @@ void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std:
     }
     else if (detectorType.compare("HARRIS") == 0)
     {
-        
+
+    }
     else if (detectorType.compare("FAST") == 0)
     {
+        cout << "Using FAST keypoint detector" << endl;
         detKeypointsFast(keypoints, img, false);
-    }
     }
     else if (detectorType.compare("BRISK") == 0)
     {
-        detKeypointsBrisk(keypoints, img, false);
+        //detKeypointsBrisk(keypoints, img, false);
     }
     else if (detectorType.compare("AKAZE") == 0)
     {
-        detKeypointsAkaze(keypoints, img, false);
+        //detKeypointsAkaze(keypoints, img, false);
     }
     else if (detectorType.compare("SIFT") == 0)
     {
-        detKeypointsSift(keypoints, img, false);
+        //detKeypointsSift(keypoints, img, false);
     }
 }
