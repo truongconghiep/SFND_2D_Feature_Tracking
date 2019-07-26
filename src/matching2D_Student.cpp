@@ -1,8 +1,10 @@
 #include <numeric>
 #include "matching2D.hpp"
 
+
 using namespace std;
 using namespace cv;
+using cv::Mat;
 
 // Find best matches for keypoints in two camera images based on several matching methods
 void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, cv::Mat &descSource, cv::Mat &descRef,
@@ -108,14 +110,14 @@ void detKeypointsFast(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
     Ptr<FastFeatureDetector> detector = FastFeatureDetector::create(10, true);
     detector->detect(img, keypoints);
 }
-/*
+
 void detKeypointsBrisk(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
-    Math decs;
+    Mat desc;
     Ptr<BRISK> brisk = BRISK::create();
-    brisk->detectAndCompute(img, Mat(), keypoints, &desc);
+    brisk->detect(img, keypoints);
 }
-
+/*
 void detKeypointsAkaze(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     Math decs;
@@ -149,7 +151,7 @@ void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std:
     }
     else if (detectorType.compare("BRISK") == 0)
     {
-        //detKeypointsBrisk(keypoints, img, false);
+        detKeypointsBrisk(keypoints, img, false);
     }
     else if (detectorType.compare("AKAZE") == 0)
     {
