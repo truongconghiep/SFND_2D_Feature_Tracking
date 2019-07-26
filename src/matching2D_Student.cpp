@@ -5,6 +5,7 @@
 using namespace std;
 using namespace cv;
 using cv::Mat;
+using cv::xfeatures2d::SIFT;
 
 // Find best matches for keypoints in two camera images based on several matching methods
 void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, cv::Mat &descSource, cv::Mat &descRef,
@@ -123,14 +124,13 @@ void detKeypointsAkaze(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
     Ptr<AKAZE> akaze = AKAZE::create();
     akaze->detect(img, keypoints);
 }
-/*
+
 void detKeypointsSift(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
-    Math decs;
     Ptr<Feature2D> sift = SIFT::create();
-    sift->detectAndCompute(img, Mat(), kpts, &desc);
+    sift->detect(img, keypoints);
 }
-*/
+
 
 void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detectorType, bool bVis)
 {
@@ -159,6 +159,7 @@ void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std:
     }
     else if (detectorType.compare("SIFT") == 0)
     {
-        //detKeypointsSift(keypoints, img, false);
+        cout << "Using SIFT keypoint detector" << endl;
+        detKeypointsSift(keypoints, img, false);
     }
 }
