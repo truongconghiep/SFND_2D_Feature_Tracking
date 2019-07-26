@@ -62,7 +62,14 @@ int main(int argc, const char *argv[])
         // push image into data frame buffer
         DataFrame frame;
         frame.cameraImg = imgGray;
-        dataBuffer.push_back(frame);
+        
+        // rotate the vector and pop the last element up
+        if(dataBuffer.size >= dataBufferSize)
+        {
+            std::rotate(dataBuffer.begin(), dataBuffer.begin()+1, dataBuffer.end());
+            dataBuffer.pop_back();
+        }
+        dataBuffer.push_back(frame);  
 
         //// EOF STUDENT ASSIGNMENT
         cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
