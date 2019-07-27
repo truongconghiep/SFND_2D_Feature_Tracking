@@ -6,6 +6,12 @@ using namespace std;
 using namespace cv;
 using cv::Mat;
 using cv::xfeatures2d::SIFT;
+using cv::xfeatures2d::FREAK;
+using cv::xfeatures2d::BriefDescriptorExtractor;
+using cv::BRISK;
+using cv::ORB;
+using cv::AKAZE;
+
 
 // Find best matches for keypoints in two camera images based on several matching methods
 void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, cv::Mat &descSource, cv::Mat &descRef,
@@ -52,10 +58,30 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
 
         extractor = cv::BRISK::create(threshold, octaves, patternScale);
     }
-    else
+    else if (descriptorType.compare("BRIEF") == 0)
     {
-
-        //...
+        cout << "Using BRIEF keypoint descriptor" << endl;
+        extractor = cv::xfeatures2d::BriefDescriptorExtractor::create();
+    }
+    else if (descriptorType.compare("ORD") == 0)
+    {
+        cout << "Using ORB keypoint descriptor" << endl;
+        extractor = ORB::create();
+    }
+    else if (descriptorType.compare("FREAK") == 0)
+    {
+        cout << "Using FREAK keypoint descriptor" << endl;
+        extractor = FREAK::create();
+    }
+    else if (descriptorType.compare("AKAZE") == 0)
+    {
+        cout << "Using AKAZE keypoint descriptor" << endl;
+        extractor = cv::AKAZE::create();
+    }
+    else if (descriptorType.compare("SIFT") == 0)
+    {
+        cout << "Using SIFT keypoint descriptor" << endl;
+        extractor = SIFT::create();
     }
 
     // perform feature description
