@@ -95,10 +95,18 @@ int main(int argc, const char *argv[])
         // only keep keypoints on the preceding vehicle
         bool bFocusOnVehicle = true;
         cv::Rect vehicleRect(535, 180, 180, 150);
+        cout << "keypoint before" << keypoints.size()<<endl;
         if (bFocusOnVehicle)
         {
-            // ...
+            for (int i = 0; i < keypoints.size(); i++)
+            {
+                if((keypoints[i].pt.x < 535) || (keypoints[i].pt.x > 600) || (keypoints[i].pt.y < 180) || (keypoints[i].pt.y > 330))
+                {
+                    keypoints.erase(keypoints.begin() + i);
+                }
+            }
         }
+        cout << "keypoint after" << keypoints.size()<<endl;
 
         //// EOF STUDENT ASSIGNMENT
 
