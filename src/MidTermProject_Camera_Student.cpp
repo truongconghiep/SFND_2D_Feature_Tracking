@@ -98,11 +98,16 @@ int main(int argc, const char *argv[])
         cout << "keypoint before" << keypoints.size()<<endl;
         if (bFocusOnVehicle)
         {
+            int RemovedKeypoints = 0;
             for (int i = 0; i < keypoints.size(); i++)
             {
-                if((keypoints[i].pt.x < 535) || (keypoints[i].pt.x > 600) || (keypoints[i].pt.y < 180) || (keypoints[i].pt.y > 330))
+                cout << "keypoint before" << keypoints.size()<<endl;
+                int CurrentKeypoint = i - RemovedKeypoints;
+                if((keypoints[CurrentKeypoint].pt.x < 535) || (keypoints[CurrentKeypoint].pt.x > 600) || 
+                    (keypoints[CurrentKeypoint].pt.y < 180) || (keypoints[CurrentKeypoint].pt.y > 330))
                 {
-                    keypoints.erase(keypoints.begin() + i);
+                    keypoints.erase(keypoints.begin() + CurrentKeypoint);
+                    RemovedKeypoints++;
                 }
             }
         }
