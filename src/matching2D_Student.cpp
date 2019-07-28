@@ -28,7 +28,14 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
     }
     else if (matcherType.compare("MAT_FLANN") == 0)
     {
-        // ...
+        if(descSource.type() != CV_32F)
+        {
+            descSource.convertTo(descSource, CV_32F);
+            descRef.convertTo(descRef, CV_32F);
+        }
+
+        matcher = cv::DescriptorMatcher::create(cv::DescriptorMatcher::FLANNBASED);
+        cout << "FLANN matching";
     }
 
     // perform matching task
@@ -63,7 +70,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
         cout << "Using BRIEF keypoint descriptor" << endl;
         extractor = cv::xfeatures2d::BriefDescriptorExtractor::create();
     }
-    else if (descriptorType.compare("ORD") == 0)
+    else if (descriptorType.compare("ORB") == 0)
     {
         cout << "Using ORB keypoint descriptor" << endl;
         extractor = ORB::create();
