@@ -1,7 +1,17 @@
 #include <numeric>
 #include "matching2D.hpp"
 
+
 using namespace std;
+using namespace cv;
+using cv::Mat;
+using cv::xfeatures2d::SIFT;
+using cv::xfeatures2d::FREAK;
+using cv::xfeatures2d::BriefDescriptorExtractor;
+using cv::BRISK;
+using cv::ORB;
+using cv::AKAZE;
+
 
 // Find best matches for keypoints in two camera images based on several matching methods
 void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, cv::Mat &descSource, cv::Mat &descRef,
@@ -18,7 +28,14 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
     }
     else if (matcherType.compare("MAT_FLANN") == 0)
     {
-        // ...
+        if(descSource.type() != CV_32F)
+        {
+            descSource.convertTo(descSource, CV_32F);
+            descRef.convertTo(descRef, CV_32F);
+        }
+
+        matcher = cv::DescriptorMatcher::create(cv::DescriptorMatcher::FLANNBASED);
+        cout << "FLANN matching";
     }
 
     // perform matching task
@@ -30,7 +47,23 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
     else if (selectorType.compare("SEL_KNN") == 0)
     { // k nearest neighbors (k=2)
 
-        // ...
+        vector<vector<cv::DMatch>> knn_matches;
+        double t = (double)cv::getTickCount();
+        matcher->knnMatch(descSource, descRef, knn_matches, 2); // finds the 2 best matches
+        t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+        cout << "(KNN) with n=" << knn_matches.size() << "matches in " << 1000 * t / 1.0 << " ms" << endl;
+
+        // STUDENT TASK
+        // filter matches using descriptor distance ratio test
+        double minDescDistRatio = 0.8;
+        for (auto it = knn_matches.begin(); it != knn_matches.end(); ++it)
+        {
+            if((*it)[0].distance < minDescDistRatio * (*it)[1].distance)
+            {
+                matches.push_back((*it)[0]);
+            }
+        }
+        cout << "# keypoints removed = " << knn_matches.size() - matches.size() << endl;
     }
 }
 
@@ -48,10 +81,30 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
 
         extractor = cv::BRISK::create(threshold, octaves, patternScale);
     }
-    else
+    else if (descriptorType.compare("BRIEF") == 0)
     {
-
-        //...
+        cout << "Using BRIEF keypoint descriptor" << endl;
+        extractor = cv::xfeatures2d::BriefDescriptorExtractor::create();
+    }
+    else if (descriptorType.compare("ORB") == 0)
+    {
+        cout << "Using ORB keypoint descriptor" << endl;
+        extractor = ORB::create();
+    }
+    else if (descriptorType.compare("FREAK") == 0)
+    {
+        cout << "Using FREAK keypoint descriptor" << endl;
+        extractor = FREAK::create();
+    }
+    else if (descriptorType.compare("AKAZE") == 0)
+    {
+        cout << "Using AKAZE keypoint descriptor" << endl;
+        extractor = cv::AKAZE::create();
+    }
+    else if (descriptorType.compare("SIFT") == 0)
+    {
+        cout << "Using SIFT keypoint descriptor" << endl;
+        extractor = SIFT::create();
     }
 
     // perform feature description
@@ -110,27 +163,25 @@ void detKeypointsFast(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 
 void detKeypointsBrisk(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
-    Math decs;
+    Mat desc;
     Ptr<BRISK> brisk = BRISK::create();
-    brisk->detectAndCompute(img, Mat(), keypoints, &desc);
+    brisk->detect(img, keypoints);
 }
 
 void detKeypointsAkaze(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
-    Math decs;
     Ptr<AKAZE> akaze = AKAZE::create();
-    akaze->detectAndCompute(img, Mat(), kpts, &desc);
-
+    akaze->detect(img, keypoints);
 }
 
 void detKeypointsSift(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
-    Math decs;
     Ptr<Feature2D> sift = SIFT::create();
-    sift->detectAndCompute(img, Mat(), kpts, &desc);
+    sift->detect(img, keypoints);
 }
 
-void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detectorType, bool bVis=false)
+
+void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detectorType, bool bVis)
 {
     if(detectorType.compare("SHITOMASI") == 0)
     {
@@ -138,22 +189,26 @@ void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std:
     }
     else if (detectorType.compare("HARRIS") == 0)
     {
-        
+
+    }
     else if (detectorType.compare("FAST") == 0)
     {
+        cout << "Using FAST keypoint detector" << endl;
         detKeypointsFast(keypoints, img, false);
-    }
     }
     else if (detectorType.compare("BRISK") == 0)
     {
+        cout << "Using BRISK keypoint detector" << endl;
         detKeypointsBrisk(keypoints, img, false);
     }
     else if (detectorType.compare("AKAZE") == 0)
     {
+        cout << "Using AKAZE keypoint detector" << endl;
         detKeypointsAkaze(keypoints, img, false);
     }
     else if (detectorType.compare("SIFT") == 0)
     {
+        cout << "Using SIFT keypoint detector" << endl;
         detKeypointsSift(keypoints, img, false);
     }
 }
