@@ -40,9 +40,10 @@ void FeatureTracking(string detectorType, string descriptorType)
 
     /* MAIN LOOP OVER ALL IMAGES */
 
-    cout << "/********* Detector " << detectorType << "*****Descriptor" << BRISK << "*******/" << endl;
+    cout << "/************   Detector " << detectorType << "*********** Descriptor " << descriptorType << "************/" << endl;
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
     {
+        cout << "/----------- Frame " << (imgIndex + 1) << "------------/" << endl;
         /* LOAD IMAGE INTO BUFFER */
 
         // assemble filenames for current index
@@ -95,7 +96,7 @@ void FeatureTracking(string detectorType, string descriptorType)
         bool bFocusOnVehicle = true;
         cv::Rect vehicleRect(535, 180, 180, 150);
         //cv::rectangle(imgGray,vehicleRect, cv::Scalar(255,0,0));
-        cout << "keypoint before" << keypoints.size()<<endl;
+       
         if (bFocusOnVehicle)
         {
             for (int i = 0; i < keypoints.size(); i++)
@@ -111,8 +112,7 @@ void FeatureTracking(string detectorType, string descriptorType)
                 }
             }
         }
-        cout << "keypoint after" << keypoints.size()<<endl;
-
+        
         //// EOF STUDENT ASSIGNMENT
 
         // optional : limit number of keypoints (helpful for debugging and learning)
@@ -203,21 +203,21 @@ int main(int argc, const char *argv[])
     vector<string> detectorTypes{"SHITOMASI", "HARRIS", "FAST", "BRISK", "ORB", "AKAZE", "SIFT"};
     vector<string> descriptorTypes{"BRISK", "BRIEF", "ORB", "FREAK", "AKAZE", "SIFT"};
 
-    for (auto det = detectorTypes.begin(); it != detectorTypes.end(); ++it)
+    for (std::string det : detectorTypes)
     {
-        for (auto des = descriptorTypes.begin(); it != descriptorTypes.end(); ++it)
+        for (std::string des : descriptorTypes)
         {
             if ((det.compare("AKAZE") == 0) && (des.compare("AKAZE") == 0))
             {
-                FeatureTracking(string detectorType, string descriptorType);
+                FeatureTracking(det, des);
             }
             else if ((det.compare("SIFT") == 0) && (des.compare("ORB") == 0))
             {
-                FeatureTracking(string detectorType, string descriptorType);
+                FeatureTracking(det, des);
             }
             else if (des.compare("AKAZE") != 0)
             {
-                FeatureTracking(string detectorType, string descriptorType);
+                FeatureTracking(det, des);
             }
         }
     }
