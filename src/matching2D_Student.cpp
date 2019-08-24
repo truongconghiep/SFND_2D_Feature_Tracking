@@ -68,7 +68,7 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
 }
 
 // Use one of several types of state-of-art descriptors to uniquely identify keypoints
-void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descriptors, string descriptorType)
+double descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descriptors, string descriptorType)
 {
     // select appropriate descriptor
     cv::Ptr<cv::DescriptorExtractor> extractor;
@@ -111,11 +111,13 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
     double t = (double)cv::getTickCount();
     extractor->compute(img, keypoints, descriptors);
     t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
-    cout << descriptorType << " descriptor extraction in " << 1000 * t / 1.0 << " ms" << endl;
+    double t_ms = 1000 * t / 1.0;
+    cout << descriptorType << " descriptor extraction in " << t_ms << " ms" << endl;
+    return t_ms;
 }
 
 // Detect keypoints in image using the traditional Shi-Thomasi detector
-int detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
+void detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
 {
     // compute detector parameters based on image size
     int blockSize = 4;       //  size of an average block for computing a derivative covariation matrix over each pixel neighborhood
@@ -127,7 +129,6 @@ int detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bV
     double k = 0.04;
 
     // Apply corner detection
-    
     vector<cv::Point2f> corners;
     cv::goodFeaturesToTrack(img, corners, maxCorners, qualityLevel, minDistance, cv::Mat(), blockSize, false, k);
 
@@ -140,7 +141,6 @@ int detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bV
         newKeyPoint.size = blockSize;
         keypoints.push_back(newKeyPoint);
     }
-    t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
 
     // visualize results
     if (bVis)
@@ -179,8 +179,7 @@ void detKeypointsSift(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis)
     sift->detect(img, keypoints);
 }
 
-
-void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detectorType, bool bVis)
+double detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detectorType, bool bVis)
 {
     double t = (double)cv::getTickCount();
     if(detectorType.compare("SHITOMASI") == 0)
@@ -211,7 +210,8 @@ void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std:
         cout << "Using SIFT keypoint detector" << endl;
         detKeypointsSift(keypoints, img, false);
     }
-    
-    int t_ms = 1000 * t / 1.0;
-    cout << "Shi-Tomasi detection with n=" << keypoints.size() << " keypoints in " << t_ms << " ms" << endl;
+    t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+    double t_ms = 1000 * t / 1.0;
+    cout << "detection with n=" << keypoints.size() << " keypoints in " << t_ms << " ms" << endl;
+    return t_ms;
 }

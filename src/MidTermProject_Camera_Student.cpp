@@ -43,6 +43,7 @@ void FeatureTracking(string detectorType, string descriptorType)
     cout << "/************   Detector " << detectorType << " *********** Descriptor " << descriptorType << " ************/" << endl;
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
     {
+        double t = 0;
         cout << "/----------- Frame " << (imgIndex + 1) << "------------/" << endl;
         /* LOAD IMAGE INTO BUFFER */
 
@@ -84,7 +85,7 @@ void FeatureTracking(string detectorType, string descriptorType)
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
         //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
 
-        detKeypointsModern(keypoints, imgGray, detectorType, false);
+        t = detKeypointsModern(keypoints, imgGray, detectorType, false);
         //// EOF STUDENT ASSIGNMENT
 
         //// STUDENT ASSIGNMENT
@@ -103,8 +104,6 @@ void FeatureTracking(string detectorType, string descriptorType)
                 if((keypoints[i].pt.x < 535) || (keypoints[i].pt.x > 715) || 
                     (keypoints[i].pt.y < 180) || (keypoints[i].pt.y > 330))
                 {
-                    //cout << "x " << keypoints[i].pt.x << endl;
-                    //cout << "y " << keypoints[i].pt.y << endl;
                     keypoints.erase(keypoints.begin() + i);
                     i--;
                 }
@@ -114,7 +113,7 @@ void FeatureTracking(string detectorType, string descriptorType)
         //// EOF STUDENT ASSIGNMENT
 
         // optional : limit number of keypoints (helpful for debugging and learning)
-        bool bLimitKpts = true;
+        bool bLimitKpts = false;
         if (bLimitKpts)
         {
             int maxKeypoints = 50;
@@ -139,13 +138,15 @@ void FeatureTracking(string detectorType, string descriptorType)
 
         cv::Mat descriptors;
         
-        descKeypoints((dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
+        t += descKeypoints((dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
         //// EOF STUDENT ASSIGNMENT
 
         // push descriptors for current frame to end of data buffer
         (dataBuffer.end() - 1)->descriptors = descriptors;
 
         cout << "#3 : EXTRACT DESCRIPTORS done" << endl;
+
+        cout << "Detection and descriptor extraction time "<< t << " ms" << endl;
 
         if (dataBuffer.size() > 1) // wait until at least two images have been processed
         {
