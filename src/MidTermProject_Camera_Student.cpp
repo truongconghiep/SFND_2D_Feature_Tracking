@@ -85,7 +85,7 @@ void FeatureTracking(string detectorType, string descriptorType)
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
         //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
 
-        t = detKeypointsModern(keypoints, imgGray, detectorType, false);
+        t = detKeypointsModern(keypoints, imgGray, detectorType);
         //// EOF STUDENT ASSIGNMENT
 
         //// STUDENT ASSIGNMENT

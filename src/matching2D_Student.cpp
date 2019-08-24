@@ -156,7 +156,7 @@ void detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool b
 
 void detKeypointsHarris(vector<cv::KeyPoint> &keypoints, cv::Mat &img)
 {
-    cv::cvtColor(img, img, cv::COLOR_BGR2GRAY); // convert to grayscale
+    //cv::cvtColor((cv::Mat&)img, (cv::Mat&)img, cv::COLOR_BGR2GRAY); // convert to grayscale
 
     // Detector parameters
     int blockSize = 2;     // for every pixel, a blockSize × blockSize neighborhood is considered
@@ -249,22 +249,22 @@ double detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, st
     else if (detectorType.compare("FAST") == 0)
     {
         cout << "Using FAST keypoint detector" << endl;
-        detKeypointsFast(keypoints, img, false);
+        detKeypointsFast(keypoints, img);
     }
     else if (detectorType.compare("BRISK") == 0)
     {
         cout << "Using BRISK keypoint detector" << endl;
-        detKeypointsBrisk(keypoints, img, false);
+        detKeypointsBrisk(keypoints, img);
     }
     else if (detectorType.compare("AKAZE") == 0)
     {
         cout << "Using AKAZE keypoint detector" << endl;
-        detKeypointsAkaze(keypoints, img, false);
+        detKeypointsAkaze(keypoints, img);
     }
     else if (detectorType.compare("SIFT") == 0)
     {
         cout << "Using SIFT keypoint detector" << endl;
-        detKeypointsSift(keypoints, img, false);
+        detKeypointsSift(keypoints, img);
     }
     t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     double t_ms = 1000 * t / 1.0;
