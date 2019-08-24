@@ -40,7 +40,7 @@ void FeatureTracking(string detectorType, string descriptorType)
 
     /* MAIN LOOP OVER ALL IMAGES */
 
-    cout << "/************   Detector " << detectorType << "*********** Descriptor " << descriptorType << "************/" << endl;
+    cout << "/************   Detector " << detectorType << " *********** Descriptor " << descriptorType << " ************/" << endl;
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
     {
         cout << "/----------- Frame " << (imgIndex + 1) << "------------/" << endl;
@@ -70,8 +70,6 @@ void FeatureTracking(string detectorType, string descriptorType)
             dataBuffer.pop_back();
         }
         dataBuffer.push_back(frame);  
-
-        cout << "buffer size " << dataBuffer.size()<<endl;
 
         //// EOF STUDENT ASSIGNMENT
         cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
@@ -188,8 +186,8 @@ void FeatureTracking(string detectorType, string descriptorType)
                 string windowName = "Matching keypoints between two camera images";
                 cv::namedWindow(windowName, 7);
                 cv::imshow(windowName, matchImg);
-                cout << "Press key to continue to next image" << endl;
-                cv::waitKey(0); // wait for key to be pressed
+                //cout << "Press key to continue to next image" << endl;
+                //cv::waitKey(0); // wait for key to be pressed
             }
             bVis = false;
         }
@@ -200,8 +198,8 @@ void FeatureTracking(string detectorType, string descriptorType)
 /* MAIN PROGRAM */
 int main(int argc, const char *argv[])
 {
-    vector<string> detectorTypes{"SHITOMASI", "HARRIS", "FAST", "BRISK", "ORB", "AKAZE", "SIFT"};
-    vector<string> descriptorTypes{"BRISK", "BRIEF", "ORB", "FREAK", "AKAZE", "SIFT"};
+    vector<string> detectorTypes{"SHITOMASI", "HARRIS", "FAST", "BRISK", "ORB", "AKAZE"};
+    vector<string> descriptorTypes{"BRISK", "BRIEF", "ORB", "FREAK", "AKAZE"};
 
     for (std::string det : detectorTypes)
     {
