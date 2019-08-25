@@ -23,7 +23,11 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
 
     if (matcherType.compare("MAT_BF") == 0)
     {
-        int normType = cv::NORM_HAMMING;
+        int normType = descriptorType.compare("DES_BINARY") == 0 ? cv::NORM_HAMMING : cv::NORM_L2;
+        if(descriptorName.compare("SIFT") == 0 && normType == cv::NORM_HAMMING){
+            cout << "The descriptor SIFT is not compatible with hamming distance (DES_BINARY)... falling back to L2 norm." << endl;
+            normType = cv::NORM_L2;
+        }
         matcher = cv::BFMatcher::create(normType, crossCheck);
     }
     else if (matcherType.compare("MAT_FLANN") == 0)
