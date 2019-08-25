@@ -238,9 +238,9 @@ int main(int argc, const char *argv[])
     {
         for (int j = 0; j < 6; ++j)
         {
-            std::cout << timeEstimation[i][j] << ' ';
+            //std::cout<< fixed << std::setprecision(5) << timeEstimation[i][j] << ' ';
         }
-        std::cout << std::endl;
+        //std::cout << std::endl;
     }
 
 
