@@ -212,9 +212,12 @@ int main(int argc, const char *argv[])
             {
                 FeatureTracking(det, des, matcherType, descriptorType, selectorType);
             }
-            else if ((det.compare("SIFT") == 0) && ((des.compare("ORB") != 0) || (des.compare("AKAZE") != 0)))
+            else if ((det.compare("SIFT") == 0))
             {
-                FeatureTracking(det, des, matcherType, descriptorType, selectorType);
+                if((des.compare("ORB") != 0) && (des.compare("AKAZE") != 0))
+                {
+                    FeatureTracking(det, des, matcherType, descriptorType, selectorType);
+                }
             }
             else if (des.compare("AKAZE") != 0)
             {
