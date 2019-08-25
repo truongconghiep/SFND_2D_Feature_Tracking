@@ -18,7 +18,7 @@
 
 using namespace std;
 
-void FeatureTracking(string detectorType, string descriptorType)
+double FeatureTracking(string detectorType, string descriptorType, string matcherType, string desType, string selectorType)
 {
 /* INIT VARIABLES AND DATA STRUCTURES */
 
@@ -37,13 +37,14 @@ void FeatureTracking(string detectorType, string descriptorType)
     int dataBufferSize = 2;       // no. of images which are held in memory (ring buffer) at the same time
     vector<DataFrame> dataBuffer; // list of data frames which are held in memory at the same time
     bool bVis = false;            // visualize results
+    double t = 0;
 
     /* MAIN LOOP OVER ALL IMAGES */
 
     cout << "/************   Detector " << detectorType << " *********** Descriptor " << descriptorType << " ************/" << endl;
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
     {
-        double t = 0;
+        t = 0;
         cout << "/----------- Frame " << (imgIndex + 1) << "------------/" << endl;
         /* LOAD IMAGE INTO BUFFER */
 
@@ -137,7 +138,6 @@ void FeatureTracking(string detectorType, string descriptorType)
         //// -> BRIEF, ORB, FREAK, AKAZE, SIFT
 
         cv::Mat descriptors;
-        
         t += descKeypoints((dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
         //// EOF STUDENT ASSIGNMENT
 
@@ -154,9 +154,6 @@ void FeatureTracking(string detectorType, string descriptorType)
             /* MATCH KEYPOINT DESCRIPTORS */
 
             vector<cv::DMatch> matches;
-            string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
-            string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
-            string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
             //// STUDENT ASSIGNMENT
             //// TASK MP.5 -> add FLANN matching in file matching2D.cpp
@@ -164,7 +161,7 @@ void FeatureTracking(string detectorType, string descriptorType)
 
             matchDescriptors((dataBuffer.end() - 2)->keypoints, (dataBuffer.end() - 1)->keypoints,
                              (dataBuffer.end() - 2)->descriptors, (dataBuffer.end() - 1)->descriptors,
-                             matches, descriptorType, matcherType, selectorType);
+                             matches, descriptorType, matcherType, selectorType, desType);
 
             //// EOF STUDENT ASSIGNMENT
 
@@ -194,13 +191,18 @@ void FeatureTracking(string detectorType, string descriptorType)
         }
 
     } // eof loop over all images
+
+    return t;
 }
 
 /* MAIN PROGRAM */
 int main(int argc, const char *argv[])
 {
-    vector<string> detectorTypes{"SHITOMASI", "HARRIS", "FAST", "BRISK", "ORB", "AKAZE"};
-    vector<string> descriptorTypes{"BRISK", "BRIEF", "ORB", "FREAK", "AKAZE"};
+    vector<string> detectorTypes{"SHITOMASI", "HARRIS", "FAST", "BRISK", "ORB", "AKAZE", "SIFT"};
+    vector<string> descriptorTypes{"BRISK", "BRIEF", "ORB", "FREAK", "AKAZE", "SIFT"};
+    string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
+    string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
+    string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
     for (std::string det : detectorTypes)
     {
@@ -208,15 +210,15 @@ int main(int argc, const char *argv[])
         {
             if ((det.compare("AKAZE") == 0) && (des.compare("AKAZE") == 0))
             {
-                FeatureTracking(det, des);
+                FeatureTracking(det, des, matcherType, descriptorType, selectorType);
             }
-            else if ((det.compare("SIFT") == 0) && (des.compare("ORB") == 0))
+            else if ((det.compare("SIFT") == 0) && ((des.compare("ORB") != 0) || (des.compare("AKAZE") != 0)))
             {
-                FeatureTracking(det, des);
+                FeatureTracking(det, des, matcherType, descriptorType, selectorType);
             }
             else if (des.compare("AKAZE") != 0)
             {
-                FeatureTracking(det, des);
+                FeatureTracking(det, des, matcherType, descriptorType, selectorType);
             }
         }
     }
