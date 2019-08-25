@@ -204,27 +204,46 @@ int main(int argc, const char *argv[])
     string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
     string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
+    double t_ms = 0;
+    double timeEstimation[7][6];
+    int detCounter = 0, desCounter = 0;
+
     for (std::string det : detectorTypes)
     {
         for (std::string des : descriptorTypes)
         {
+            t_ms = 0;
             if ((det.compare("AKAZE") == 0) && (des.compare("AKAZE") == 0))
             {
-                FeatureTracking(det, des, matcherType, descriptorType, selectorType);
+                t_ms = FeatureTracking(det, des, matcherType, descriptorType, selectorType);
             }
             else if ((det.compare("SIFT") == 0))
             {
                 if((des.compare("ORB") != 0) && (des.compare("AKAZE") != 0))
                 {
-                    FeatureTracking(det, des, matcherType, descriptorType, selectorType);
+                    t_ms = FeatureTracking(det, des, matcherType, descriptorType, selectorType);
                 }
             }
             else if (des.compare("AKAZE") != 0)
             {
-                FeatureTracking(det, des, matcherType, descriptorType, selectorType);
+                t_ms = FeatureTracking(det, des, matcherType, descriptorType, selectorType);
             }
+            timeEstimation[detCounter][desCounter] = t_ms;
+            desCounter++;
         }
+        detCounter++;
     }
+
+    for (int i = 0; i < 7; ++i)
+    {
+        for (int j = 0; j < 6; ++j)
+        {
+            std::cout << timeEstimation[i][j] << ' ';
+        }
+        std::cout << std::endl;
+    }
+
+
   
     return 0;
 }
