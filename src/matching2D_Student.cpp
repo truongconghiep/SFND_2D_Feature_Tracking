@@ -91,27 +91,22 @@ double descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &des
     }
     else if (descriptorType.compare("BRIEF") == 0)
     {
-        cout << "Using BRIEF keypoint descriptor" << endl;
         extractor = cv::xfeatures2d::BriefDescriptorExtractor::create();
     }
     else if (descriptorType.compare("ORB") == 0)
     {
-        cout << "Using ORB keypoint descriptor" << endl;
         extractor = ORB::create();
     }
     else if (descriptorType.compare("FREAK") == 0)
     {
-        cout << "Using FREAK keypoint descriptor" << endl;
         extractor = FREAK::create();
     }
     else if (descriptorType.compare("AKAZE") == 0)
     {
-        cout << "Using AKAZE keypoint descriptor" << endl;
         extractor = cv::AKAZE::create();
     }
     else if (descriptorType.compare("SIFT") == 0)
     {
-        cout << "Using SIFT keypoint descriptor" << endl;
         extractor = SIFT::create();
     }
 
@@ -256,22 +251,18 @@ double detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, st
     }
     else if (detectorType.compare("FAST") == 0)
     {
-        cout << "Using FAST keypoint detector" << endl;
         detKeypointsFast(keypoints, img);
     }
     else if (detectorType.compare("BRISK") == 0)
     {
-        cout << "Using BRISK keypoint detector" << endl;
         detKeypointsBrisk(keypoints, img);
     }
     else if (detectorType.compare("AKAZE") == 0)
     {
-        cout << "Using AKAZE keypoint detector" << endl;
         detKeypointsAkaze(keypoints, img);
     }
     else if (detectorType.compare("SIFT") == 0)
     {
-        cout << "Using SIFT keypoint detector" << endl;
         detKeypointsSift(keypoints, img);
     }
     t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
