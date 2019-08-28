@@ -204,7 +204,7 @@ int main(int argc, const char *argv[])
     string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
     string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
-    bool PerformanceEstimationEnable = false;
+    bool PerformanceEstimationEnable = true;
 
     if (!PerformanceEstimationEnable)
     {

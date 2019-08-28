@@ -213,31 +213,6 @@ void detKeypointsHarris(vector<cv::KeyPoint> &keypoints, cv::Mat &img)
     }     // eof loop over rows
 }
 
-void detKeypointsFast(vector<cv::KeyPoint> &keypoints, cv::Mat &img)
-{
-    Ptr<FastFeatureDetector> detector = FastFeatureDetector::create(10, true);
-    detector->detect(img, keypoints);
-}
-
-void detKeypointsBrisk(vector<cv::KeyPoint> &keypoints, cv::Mat &img)
-{
-    Mat desc;
-    Ptr<BRISK> brisk = BRISK::create();
-    brisk->detect(img, keypoints);
-}
-
-void detKeypointsAkaze(vector<cv::KeyPoint> &keypoints, cv::Mat &img)
-{
-    Ptr<AKAZE> akaze = AKAZE::create();
-    akaze->detect(img, keypoints);
-}
-
-void detKeypointsSift(vector<cv::KeyPoint> &keypoints, cv::Mat &img)
-{
-    Ptr<Feature2D> sift = SIFT::create();
-    sift->detect(img, keypoints);
-}
-
 double detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::string detectorType)
 {
     double t = (double)cv::getTickCount();
@@ -251,19 +226,23 @@ double detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, st
     }
     else if (detectorType.compare("FAST") == 0)
     {
-        detKeypointsFast(keypoints, img);
+        Ptr<FastFeatureDetector> detector = FastFeatureDetector::create(10, true);
+        detector->detect(img, keypoints);
     }
     else if (detectorType.compare("BRISK") == 0)
     {
-        detKeypointsBrisk(keypoints, img);
+        Ptr<BRISK> brisk = BRISK::create();
+        brisk->detect(img, keypoints);
     }
     else if (detectorType.compare("AKAZE") == 0)
     {
-        detKeypointsAkaze(keypoints, img);
+        Ptr<AKAZE> akaze = AKAZE::create();
+        akaze->detect(img, keypoints);
     }
     else if (detectorType.compare("SIFT") == 0)
     {
-        detKeypointsSift(keypoints, img);
+        Ptr<Feature2D> sift = SIFT::create();
+        sift->detect(img, keypoints);
     }
     t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     double t_ms = 1000 * t / 1.0;
