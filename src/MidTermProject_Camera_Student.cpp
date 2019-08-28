@@ -93,7 +93,7 @@ double FeatureTracking(string detectorType, string descriptorType, string matche
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
 
         // only keep keypoints on the preceding vehicle
-        bool bFocusOnVehicle = true;
+        bool bFocusOnVehicle = false;
         cv::Rect vehicleRect(535, 180, 180, 150);
         //cv::rectangle(imgGray,vehicleRect, cv::Scalar(255,0,0));
        
@@ -204,7 +204,7 @@ int main(int argc, const char *argv[])
     string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
     string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
-    bool PerformanceEstimationEnable = true;
+    bool PerformanceEstimationEnable = false;
 
     if (!PerformanceEstimationEnable)
     {
