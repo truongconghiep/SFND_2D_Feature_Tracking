@@ -18,7 +18,7 @@
 
 using namespace std;
 
-double FeatureTracking(string detectorType, string descriptorType, string matcherType, string desType, string selectorType)
+double FeatureTracking(string detectorType, string descriptorType, string matcherType, string desType, string selectorType, bool VisualizeEnable)
 {
 /* INIT VARIABLES AND DATA STRUCTURES */
 
@@ -172,7 +172,7 @@ double FeatureTracking(string detectorType, string descriptorType, string matche
 
             // visualize matches between current and previous image
             bVis = true;
-            if (bVis)
+            if (bVis && VisualizeEnable)
             {
                 cv::Mat matchImg = ((dataBuffer.end() - 1)->cameraImg).clone();
                 cv::drawMatches((dataBuffer.end() - 2)->cameraImg, (dataBuffer.end() - 2)->keypoints,
@@ -184,8 +184,8 @@ double FeatureTracking(string detectorType, string descriptorType, string matche
                 string windowName = "Matching keypoints between two camera images";
                 cv::namedWindow(windowName, 7);
                 cv::imshow(windowName, matchImg);
-                //cout << "Press key to continue to next image" << endl;
-                //cv::waitKey(0); // wait for key to be pressed
+                cout << "Press key to continue to next image" << endl;
+                cv::waitKey(0); // wait for key to be pressed
             }
             bVis = false;
         }
@@ -204,46 +204,35 @@ int main(int argc, const char *argv[])
     string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
     string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
-    double t_ms = 0;
-    double timeEstimation[7][6];
-    int detCounter = 0, desCounter = 0;
+    bool PerformanceEstimationEnable = true;
+
+    if (!PerformanceEstimationEnable)
+    {
+        FeatureTracking(detectorTypes[0], descriptorTypes[0], matcherType, descriptorType, selectorType, true);
+        return 0;
+    }
 
     for (std::string det : detectorTypes)
     {
         for (std::string des : descriptorTypes)
         {
-            t_ms = 0;
             if ((det.compare("AKAZE") == 0) && (des.compare("AKAZE") == 0))
             {
-                t_ms = FeatureTracking(det, des, matcherType, descriptorType, selectorType);
+                FeatureTracking(det, des, matcherType, descriptorType, selectorType, false);
             }
             else if ((det.compare("SIFT") == 0))
             {
                 if((des.compare("ORB") != 0) && (des.compare("AKAZE") != 0))
                 {
-                    t_ms = FeatureTracking(det, des, matcherType, descriptorType, selectorType);
+                    FeatureTracking(det, des, matcherType, descriptorType, selectorType, false);
                 }
             }
             else if (des.compare("AKAZE") != 0)
             {
-                t_ms = FeatureTracking(det, des, matcherType, descriptorType, selectorType);
+                FeatureTracking(det, des, matcherType, descriptorType, selectorType, false);
             }
-            timeEstimation[detCounter][desCounter] = t_ms;
-            desCounter++;
         }
-        detCounter++;
     }
-
-    for (int i = 0; i < 7; ++i)
-    {
-        for (int j = 0; j < 6; ++j)
-        {
-            //std::cout<< fixed << std::setprecision(5) << timeEstimation[i][j] << ' ';
-        }
-        //std::cout << std::endl;
-    }
-
-
-  
+ 
     return 0;
 }
