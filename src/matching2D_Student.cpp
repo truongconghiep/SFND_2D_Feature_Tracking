@@ -234,6 +234,11 @@ double detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, st
         Ptr<BRISK> brisk = BRISK::create();
         brisk->detect(img, keypoints);
     }
+    else if (detectorType.compare("ORB") == 0)
+    {
+        Ptr<ORB> orb = ORB::create();
+        orb->detect(img, keypoints);
+    }
     else if (detectorType.compare("AKAZE") == 0)
     {
         Ptr<AKAZE> akaze = AKAZE::create();
