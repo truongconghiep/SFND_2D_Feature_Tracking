@@ -1,3430 +1,3430 @@
 /************   Detector SHITOMASI *********** Descriptor BRISK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1370 keypoints in 19.3348 ms
+detection with n=1370 keypoints in 17.4882 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.9382 ms
+BRISK descriptor extraction in 11.2648 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 30.273 ms
+Detection and descriptor extraction time 28.753 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1301 keypoints in 32.8744 ms
+detection with n=1301 keypoints in 34.5747 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 19.0297 ms
+BRISK descriptor extraction in 19.4515 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 51.9041 ms
-(KNN) with n=1316matches in 43.6784 ms
+Detection and descriptor extraction time 54.0263 ms
+(KNN) with n=1316matches in 83.9192 ms
 # keypoints removed = 747
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1361 keypoints in 15.6235 ms
+detection with n=1361 keypoints in 21.2063 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.6894 ms
+BRISK descriptor extraction in 17.8424 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 27.3129 ms
-(KNN) with n=1254matches in 37.6906 ms
+Detection and descriptor extraction time 39.0487 ms
+(KNN) with n=1254matches in 89.8892 ms
 # keypoints removed = 700
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1358 keypoints in 13.2505 ms
+detection with n=1358 keypoints in 31.7198 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.8213 ms
+BRISK descriptor extraction in 16.6232 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 25.0718 ms
-(KNN) with n=1306matches in 38.4629 ms
+Detection and descriptor extraction time 48.343 ms
+(KNN) with n=1306matches in 85.9359 ms
 # keypoints removed = 758
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1333 keypoints in 13.6188 ms
+detection with n=1333 keypoints in 35.7401 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.3376 ms
+BRISK descriptor extraction in 17.1517 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 24.9564 ms
-(KNN) with n=1311matches in 37.369 ms
+Detection and descriptor extraction time 52.8918 ms
+(KNN) with n=1311matches in 67.2647 ms
 # keypoints removed = 778
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1284 keypoints in 13.3063 ms
+detection with n=1284 keypoints in 22.1095 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.0895 ms
+BRISK descriptor extraction in 11.1017 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 24.3958 ms
-(KNN) with n=1282matches in 37.7221 ms
+Detection and descriptor extraction time 33.2113 ms
+(KNN) with n=1282matches in 35.9169 ms
 # keypoints removed = 724
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1322 keypoints in 13.2031 ms
+detection with n=1322 keypoints in 13.3145 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.6169 ms
+BRISK descriptor extraction in 17.54 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 24.8201 ms
-(KNN) with n=1238matches in 37.9403 ms
+Detection and descriptor extraction time 30.8545 ms
+(KNN) with n=1238matches in 70.6815 ms
 # keypoints removed = 707
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1366 keypoints in 13.7559 ms
+detection with n=1366 keypoints in 24.0523 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.6229 ms
+BRISK descriptor extraction in 19.3635 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 25.3789 ms
-(KNN) with n=1269matches in 37.0142 ms
+Detection and descriptor extraction time 43.4159 ms
+(KNN) with n=1269matches in 89.512 ms
 # keypoints removed = 732
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1389 keypoints in 13.0746 ms
+detection with n=1389 keypoints in 37.5447 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.9006 ms
+BRISK descriptor extraction in 18.2431 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 24.9752 ms
-(KNN) with n=1313matches in 40.0525 ms
+Detection and descriptor extraction time 55.7878 ms
+(KNN) with n=1313matches in 86.2576 ms
 # keypoints removed = 763
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1339 keypoints in 13.3547 ms
+detection with n=1339 keypoints in 33.5771 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.8873 ms
+BRISK descriptor extraction in 18.2178 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 24.2419 ms
-(KNN) with n=1326matches in 41.1719 ms
+Detection and descriptor extraction time 51.7948 ms
+(KNN) with n=1326matches in 88.4522 ms
 # keypoints removed = 776
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector SHITOMASI *********** Descriptor BRIEF ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1370 keypoints in 22.9463 ms
+detection with n=1370 keypoints in 43.3939 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 18.6627 ms
+BRIEF descriptor extraction in 8.1658 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 41.609 ms
+Detection and descriptor extraction time 51.5597 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1301 keypoints in 18.1375 ms
+detection with n=1301 keypoints in 20.6519 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 9.15608 ms
+BRIEF descriptor extraction in 5.10517 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 27.2936 ms
-(KNN) with n=1261matches in 28.9939 ms
+Detection and descriptor extraction time 25.7571 ms
+(KNN) with n=1261matches in 37.8322 ms
 # keypoints removed = 524
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1361 keypoints in 49.5408 ms
+detection with n=1361 keypoints in 13.6615 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 9.20062 ms
+BRIEF descriptor extraction in 4.93514 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 58.7415 ms
-(KNN) with n=1206matches in 41.8901 ms
+Detection and descriptor extraction time 18.5966 ms
+(KNN) with n=1206matches in 36.418 ms
 # keypoints removed = 486
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1358 keypoints in 40.5868 ms
+detection with n=1358 keypoints in 13.8419 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 23.8184 ms
+BRIEF descriptor extraction in 5.31781 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 64.4052 ms
-(KNN) with n=1249matches in 41.0791 ms
+Detection and descriptor extraction time 19.1597 ms
+(KNN) with n=1249matches in 31.8293 ms
 # keypoints removed = 517
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1333 keypoints in 31.3754 ms
+detection with n=1333 keypoints in 13.4884 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 10.7095 ms
+BRIEF descriptor extraction in 5.23382 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 42.0849 ms
-(KNN) with n=1258matches in 39.823 ms
+Detection and descriptor extraction time 18.7222 ms
+(KNN) with n=1258matches in 27.4594 ms
 # keypoints removed = 508
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1284 keypoints in 20.5263 ms
+detection with n=1284 keypoints in 13.5346 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 13.2319 ms
+BRIEF descriptor extraction in 4.86124 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 33.7582 ms
-(KNN) with n=1226matches in 40.5924 ms
+Detection and descriptor extraction time 18.3959 ms
+(KNN) with n=1226matches in 26.0774 ms
 # keypoints removed = 497
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1322 keypoints in 23.7864 ms
+detection with n=1322 keypoints in 20.8944 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 8.47701 ms
+BRIEF descriptor extraction in 17.8499 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 32.2634 ms
-(KNN) with n=1183matches in 38.0734 ms
+Detection and descriptor extraction time 38.7444 ms
+(KNN) with n=1183matches in 10.5798 ms
 # keypoints removed = 468
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1366 keypoints in 20.3639 ms
+detection with n=1366 keypoints in 17.9198 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 10.2801 ms
+BRIEF descriptor extraction in 5.26479 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 30.644 ms
-(KNN) with n=1202matches in 20.3363 ms
+Detection and descriptor extraction time 23.1846 ms
+(KNN) with n=1202matches in 9.54693 ms
 # keypoints removed = 493
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1389 keypoints in 21.2552 ms
+detection with n=1389 keypoints in 13.6587 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 6.46596 ms
+BRIEF descriptor extraction in 5.01404 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 27.7212 ms
-(KNN) with n=1243matches in 38.822 ms
+Detection and descriptor extraction time 18.6727 ms
+(KNN) with n=1243matches in 36.5547 ms
 # keypoints removed = 502
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1339 keypoints in 43.9513 ms
+detection with n=1339 keypoints in 23.2388 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 8.52355 ms
+BRIEF descriptor extraction in 12.8303 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 52.4749 ms
-(KNN) with n=1252matches in 40.6833 ms
+Detection and descriptor extraction time 36.0691 ms
+(KNN) with n=1252matches in 32.9273 ms
 # keypoints removed = 522
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector SHITOMASI *********** Descriptor ORB ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1370 keypoints in 26.7575 ms
+detection with n=1370 keypoints in 35.4851 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 5.16904 ms
+ORB descriptor extraction in 2.83051 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 31.9266 ms
+Detection and descriptor extraction time 38.3157 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1301 keypoints in 20.5572 ms
+detection with n=1301 keypoints in 13.9874 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 4.54328 ms
+ORB descriptor extraction in 2.61838 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 25.1005 ms
-(KNN) with n=1246matches in 24.2878 ms
+Detection and descriptor extraction time 16.6058 ms
+(KNN) with n=1246matches in 9.55775 ms
 # keypoints removed = 590
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1361 keypoints in 20.9957 ms
+detection with n=1361 keypoints in 14.0546 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 3.7087 ms
+ORB descriptor extraction in 2.69817 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 24.7044 ms
-(KNN) with n=1196matches in 33.6078 ms
+Detection and descriptor extraction time 16.7528 ms
+(KNN) with n=1196matches in 9.64266 ms
 # keypoints removed = 585
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1358 keypoints in 24.441 ms
+detection with n=1358 keypoints in 13.9996 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 5.40022 ms
+ORB descriptor extraction in 2.60894 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 29.8412 ms
-(KNN) with n=1236matches in 45.4114 ms
+Detection and descriptor extraction time 16.6085 ms
+(KNN) with n=1236matches in 36.1453 ms
 # keypoints removed = 601
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1333 keypoints in 19.8492 ms
+detection with n=1333 keypoints in 14.043 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 5.2806 ms
+ORB descriptor extraction in 2.56365 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 25.1298 ms
-(KNN) with n=1245matches in 35.4522 ms
+Detection and descriptor extraction time 16.6066 ms
+(KNN) with n=1245matches in 9.77489 ms
 # keypoints removed = 621
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1284 keypoints in 20.4057 ms
+detection with n=1284 keypoints in 13.8175 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 3.28666 ms
+ORB descriptor extraction in 2.52631 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 23.6923 ms
-(KNN) with n=1218matches in 44.0995 ms
+Detection and descriptor extraction time 16.3439 ms
+(KNN) with n=1218matches in 22.5134 ms
 # keypoints removed = 615
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1322 keypoints in 18.0553 ms
+detection with n=1322 keypoints in 30.2314 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 2.42257 ms
+ORB descriptor extraction in 2.36833 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 20.4778 ms
-(KNN) with n=1173matches in 22.8607 ms
+Detection and descriptor extraction time 32.5998 ms
+(KNN) with n=1173matches in 34.1025 ms
 # keypoints removed = 587
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1366 keypoints in 13.8358 ms
+detection with n=1366 keypoints in 14.4712 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 2.55658 ms
+ORB descriptor extraction in 2.76196 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 16.3924 ms
-(KNN) with n=1192matches in 9.48559 ms
+Detection and descriptor extraction time 17.2331 ms
+(KNN) with n=1192matches in 27.0835 ms
 # keypoints removed = 572
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1389 keypoints in 14.0085 ms
+detection with n=1389 keypoints in 14.0769 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 2.70463 ms
+ORB descriptor extraction in 2.82942 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 16.7131 ms
-(KNN) with n=1232matches in 40.3089 ms
+Detection and descriptor extraction time 16.9064 ms
+(KNN) with n=1232matches in 31.4663 ms
 # keypoints removed = 579
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1339 keypoints in 13.8072 ms
+detection with n=1339 keypoints in 14.188 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 2.62582 ms
+ORB descriptor extraction in 2.61659 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 16.4331 ms
-(KNN) with n=1238matches in 39.7894 ms
+Detection and descriptor extraction time 16.8046 ms
+(KNN) with n=1238matches in 10.1104 ms
 # keypoints removed = 614
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector SHITOMASI *********** Descriptor FREAK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1370 keypoints in 13.3124 ms
+detection with n=1370 keypoints in 13.7623 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 46.0554 ms
+FREAK descriptor extraction in 46.159 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 59.3678 ms
+Detection and descriptor extraction time 59.9213 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1301 keypoints in 13.1939 ms
+detection with n=1301 keypoints in 30.1313 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 78.5925 ms
+FREAK descriptor extraction in 43.5226 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 91.7864 ms
-(KNN) with n=1272matches in 19.1759 ms
+Detection and descriptor extraction time 73.654 ms
+(KNN) with n=1272matches in 43.0253 ms
 # keypoints removed = 801
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1361 keypoints in 10.7186 ms
+detection with n=1361 keypoints in 11.3194 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 43.76 ms
+FREAK descriptor extraction in 44.1362 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 54.4786 ms
-(KNN) with n=1213matches in 46.8777 ms
+Detection and descriptor extraction time 55.4555 ms
+(KNN) with n=1213matches in 42.1737 ms
 # keypoints removed = 752
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1358 keypoints in 10.7921 ms
+detection with n=1358 keypoints in 10.768 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 43.329 ms
+FREAK descriptor extraction in 64.4273 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 54.1211 ms
-(KNN) with n=1263matches in 57.6098 ms
+Detection and descriptor extraction time 75.1953 ms
+(KNN) with n=1263matches in 43.4067 ms
 # keypoints removed = 807
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1333 keypoints in 10.4929 ms
+detection with n=1333 keypoints in 11.1502 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 44.6298 ms
+FREAK descriptor extraction in 44.7639 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 55.1226 ms
-(KNN) with n=1274matches in 51.0201 ms
+Detection and descriptor extraction time 55.9141 ms
+(KNN) with n=1274matches in 42.1587 ms
 # keypoints removed = 838
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1284 keypoints in 10.6378 ms
+detection with n=1284 keypoints in 10.6377 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 44.0608 ms
+FREAK descriptor extraction in 43.3344 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 54.6987 ms
-(KNN) with n=1246matches in 52.9443 ms
+Detection and descriptor extraction time 53.9721 ms
+(KNN) with n=1246matches in 55.8707 ms
 # keypoints removed = 814
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1322 keypoints in 10.6826 ms
+detection with n=1322 keypoints in 25.4618 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 44.1823 ms
+FREAK descriptor extraction in 43.281 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 54.8649 ms
-(KNN) with n=1203matches in 74.8791 ms
+Detection and descriptor extraction time 68.7428 ms
+(KNN) with n=1203matches in 36.6734 ms
 # keypoints removed = 771
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1366 keypoints in 30.1289 ms
+detection with n=1366 keypoints in 23.3606 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 59.2842 ms
+FREAK descriptor extraction in 84.4776 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 89.4132 ms
-(KNN) with n=1225matches in 79.7612 ms
+Detection and descriptor extraction time 107.838 ms
+(KNN) with n=1225matches in 41.3074 ms
 # keypoints removed = 807
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1389 keypoints in 33.3973 ms
+detection with n=1389 keypoints in 11.1131 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 57.1435 ms
+FREAK descriptor extraction in 43.7747 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 90.5408 ms
-(KNN) with n=1260matches in 78.951 ms
+Detection and descriptor extraction time 54.8878 ms
+(KNN) with n=1260matches in 42.7427 ms
 # keypoints removed = 803
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1339 keypoints in 33.5045 ms
+detection with n=1339 keypoints in 17.5532 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 72.4156 ms
+FREAK descriptor extraction in 43.4456 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 105.92 ms
-(KNN) with n=1271matches in 79.4815 ms
+Detection and descriptor extraction time 60.9988 ms
+(KNN) with n=1271matches in 36.2494 ms
 # keypoints removed = 853
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector SHITOMASI *********** Descriptor SIFT ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1370 keypoints in 30.4204 ms
+detection with n=1370 keypoints in 11.0926 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 55.4333 ms
+SIFT descriptor extraction in 41.4018 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 85.8537 ms
+Detection and descriptor extraction time 52.4944 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1301 keypoints in 29.4518 ms
+detection with n=1301 keypoints in 11.3126 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 49.7951 ms
+SIFT descriptor extraction in 36.5355 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 79.2469 ms
-(KNN) with n=1370matches in 53.1448 ms
+Detection and descriptor extraction time 47.8481 ms
+(KNN) with n=1370matches in 56.1437 ms
 # keypoints removed = 326
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1361 keypoints in 10.3547 ms
+detection with n=1361 keypoints in 11.12 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 31.9519 ms
+SIFT descriptor extraction in 39.0338 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 42.3066 ms
-(KNN) with n=1301matches in 54.4807 ms
+Detection and descriptor extraction time 50.1538 ms
+(KNN) with n=1301matches in 52.4563 ms
 # keypoints removed = 251
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1358 keypoints in 36.1674 ms
+detection with n=1358 keypoints in 10.9663 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 31.7316 ms
+SIFT descriptor extraction in 35.9779 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 67.8989 ms
-(KNN) with n=1361matches in 54.501 ms
+Detection and descriptor extraction time 46.9442 ms
+(KNN) with n=1361matches in 53.9217 ms
 # keypoints removed = 293
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1333 keypoints in 10.4934 ms
+detection with n=1333 keypoints in 10.9141 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 37.6132 ms
+SIFT descriptor extraction in 38.6173 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 48.1065 ms
-(KNN) with n=1358matches in 56.5746 ms
+Detection and descriptor extraction time 49.5315 ms
+(KNN) with n=1358matches in 53.2166 ms
 # keypoints removed = 313
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1284 keypoints in 10.4967 ms
+detection with n=1284 keypoints in 10.8207 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 36.6961 ms
+SIFT descriptor extraction in 36.5822 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 47.1927 ms
-(KNN) with n=1333matches in 50.8487 ms
+Detection and descriptor extraction time 47.4029 ms
+(KNN) with n=1333matches in 57.9351 ms
 # keypoints removed = 314
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1322 keypoints in 10.71 ms
+detection with n=1322 keypoints in 30.7385 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 39.682 ms
+SIFT descriptor extraction in 42.513 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 50.392 ms
-(KNN) with n=1284matches in 51.7752 ms
+Detection and descriptor extraction time 73.2514 ms
+(KNN) with n=1284matches in 50.831 ms
 # keypoints removed = 252
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1366 keypoints in 10.7275 ms
+detection with n=1366 keypoints in 14.724 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 40.542 ms
+SIFT descriptor extraction in 42.4233 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 51.2695 ms
-(KNN) with n=1322matches in 53.6437 ms
+Detection and descriptor extraction time 57.1474 ms
+(KNN) with n=1322matches in 67.1193 ms
 # keypoints removed = 289
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1389 keypoints in 37.9442 ms
+detection with n=1389 keypoints in 10.9534 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 47.1351 ms
+SIFT descriptor extraction in 18.8884 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 85.0794 ms
-(KNN) with n=1366matches in 67.8625 ms
+Detection and descriptor extraction time 29.8418 ms
+(KNN) with n=1366matches in 62.4246 ms
 # keypoints removed = 288
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1339 keypoints in 30.6502 ms
+detection with n=1339 keypoints in 34.5518 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 64.919 ms
+SIFT descriptor extraction in 49.4852 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 95.5692 ms
-(KNN) with n=1389matches in 70.7762 ms
+Detection and descriptor extraction time 84.037 ms
+(KNN) with n=1389matches in 58.2053 ms
 # keypoints removed = 336
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector HARRIS *********** Descriptor BRISK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=115 keypoints in 21.7543 ms
+detection with n=115 keypoints in 39.6468 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 1.45478 ms
+BRISK descriptor extraction in 1.42034 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 23.2091 ms
+Detection and descriptor extraction time 41.0672 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=98 keypoints in 29.5498 ms
+detection with n=98 keypoints in 32.1427 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 1.26959 ms
+BRISK descriptor extraction in 1.40184 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 30.8194 ms
-(KNN) with n=114matches in 0.695572 ms
+Detection and descriptor extraction time 33.5446 ms
+(KNN) with n=114matches in 1.08457 ms
 # keypoints removed = 58
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=113 keypoints in 12.3139 ms
+detection with n=113 keypoints in 17.114 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 1.4656 ms
+BRISK descriptor extraction in 1.54473 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.7795 ms
-(KNN) with n=97matches in 0.654818 ms
+Detection and descriptor extraction time 18.6587 ms
+(KNN) with n=97matches in 0.752971 ms
 # keypoints removed = 48
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=121 keypoints in 13.8062 ms
+detection with n=121 keypoints in 17.7024 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 1.51483 ms
+BRISK descriptor extraction in 1.4406 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 15.321 ms
-(KNN) with n=112matches in 0.749683 ms
+Detection and descriptor extraction time 19.143 ms
+(KNN) with n=112matches in 0.788989 ms
 # keypoints removed = 56
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=160 keypoints in 14.9197 ms
+detection with n=160 keypoints in 13.2021 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 1.83589 ms
+BRISK descriptor extraction in 1.87412 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 16.7556 ms
-(KNN) with n=115matches in 1.10174 ms
+Detection and descriptor extraction time 15.0762 ms
+(KNN) with n=115matches in 0.978285 ms
 # keypoints removed = 53
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=383 keypoints in 20.54 ms
+detection with n=383 keypoints in 23.1317 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 3.58087 ms
+BRISK descriptor extraction in 3.66454 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 24.1209 ms
-(KNN) with n=155matches in 3.26646 ms
+Detection and descriptor extraction time 26.7962 ms
+(KNN) with n=155matches in 3.49029 ms
 # keypoints removed = 69
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=85 keypoints in 10.6827 ms
+detection with n=85 keypoints in 17.3228 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 1.21988 ms
+BRISK descriptor extraction in 1.24625 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 11.9025 ms
-(KNN) with n=369matches in 2.06183 ms
+Detection and descriptor extraction time 18.5691 ms
+(KNN) with n=369matches in 1.76145 ms
 # keypoints removed = 301
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=210 keypoints in 14.0117 ms
+detection with n=210 keypoints in 12.713 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 2.2746 ms
+BRISK descriptor extraction in 2.26275 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 16.2863 ms
-(KNN) with n=83matches in 1.11031 ms
+Detection and descriptor extraction time 14.9758 ms
+(KNN) with n=83matches in 1.00951 ms
 # keypoints removed = 31
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=171 keypoints in 17.0024 ms
+detection with n=171 keypoints in 16.2851 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 1.91961 ms
+BRISK descriptor extraction in 1.9072 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 18.922 ms
-(KNN) with n=206matches in 2.21292 ms
+Detection and descriptor extraction time 18.1923 ms
+(KNN) with n=206matches in 1.84891 ms
 # keypoints removed = 105
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=281 keypoints in 19 ms
+detection with n=281 keypoints in 26.5251 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 2.79756 ms
+BRISK descriptor extraction in 2.81534 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 21.7976 ms
-(KNN) with n=169matches in 2.7452 ms
+Detection and descriptor extraction time 29.3405 ms
+(KNN) with n=169matches in 2.47422 ms
 # keypoints removed = 69
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector HARRIS *********** Descriptor BRIEF ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=115 keypoints in 10.9403 ms
+detection with n=115 keypoints in 12.9333 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.626816 ms
+BRIEF descriptor extraction in 0.789059 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 11.5671 ms
+Detection and descriptor extraction time 13.7223 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=98 keypoints in 26.668 ms
+detection with n=98 keypoints in 27.7461 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.548607 ms
+BRIEF descriptor extraction in 0.927677 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 27.2166 ms
-(KNN) with n=114matches in 0.163176 ms
+Detection and descriptor extraction time 28.6737 ms
+(KNN) with n=114matches in 0.208543 ms
 # keypoints removed = 47
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=113 keypoints in 10.7247 ms
+detection with n=113 keypoints in 10.9925 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.612181 ms
+BRIEF descriptor extraction in 0.764017 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 11.3368 ms
-(KNN) with n=96matches in 0.19012 ms
+Detection and descriptor extraction time 11.7565 ms
+(KNN) with n=96matches in 0.16149 ms
 # keypoints removed = 31
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=121 keypoints in 10.766 ms
+detection with n=121 keypoints in 28.7855 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.603398 ms
+BRIEF descriptor extraction in 0.758734 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 11.3694 ms
-(KNN) with n=108matches in 0.269186 ms
+Detection and descriptor extraction time 29.5443 ms
+(KNN) with n=108matches in 0.203697 ms
 # keypoints removed = 32
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=160 keypoints in 13.7061 ms
+detection with n=160 keypoints in 11.5097 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.749656 ms
+BRIEF descriptor extraction in 0.899971 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 14.4557 ms
-(KNN) with n=112matches in 0.222598 ms
+Detection and descriptor extraction time 12.4097 ms
+(KNN) with n=112matches in 0.225529 ms
 # keypoints removed = 33
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=383 keypoints in 36.5658 ms
+detection with n=383 keypoints in 20.3744 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 1.5255 ms
+BRIEF descriptor extraction in 1.47745 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 38.0913 ms
-(KNN) with n=153matches in 1.87723 ms
+Detection and descriptor extraction time 21.8519 ms
+(KNN) with n=153matches in 1.69707 ms
 # keypoints removed = 50
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=85 keypoints in 14.4742 ms
+detection with n=85 keypoints in 19.5888 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.534784 ms
+BRIEF descriptor extraction in 2.4913 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 15.009 ms
-(KNN) with n=356matches in 0.323104 ms
+Detection and descriptor extraction time 22.0801 ms
+(KNN) with n=356matches in 1.29448 ms
 # keypoints removed = 256
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=210 keypoints in 12.0911 ms
+detection with n=210 keypoints in 12.8145 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.961203 ms
+BRIEF descriptor extraction in 1.06765 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.0523 ms
-(KNN) with n=81matches in 0.227395 ms
+Detection and descriptor extraction time 13.8821 ms
+(KNN) with n=81matches in 0.226284 ms
 # keypoints removed = 23
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=171 keypoints in 11.225 ms
+detection with n=171 keypoints in 14.7678 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.80834 ms
+BRIEF descriptor extraction in 0.824894 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 12.0333 ms
-(KNN) with n=203matches in 1.07492 ms
+Detection and descriptor extraction time 15.5927 ms
+(KNN) with n=203matches in 0.916978 ms
 # keypoints removed = 78
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=281 keypoints in 16.3571 ms
+detection with n=281 keypoints in 20.9127 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 1.25401 ms
+BRIEF descriptor extraction in 1.34374 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 17.6111 ms
-(KNN) with n=165matches in 1.18629 ms
+Detection and descriptor extraction time 22.2565 ms
+(KNN) with n=165matches in 1.33971 ms
 # keypoints removed = 46
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector HARRIS *********** Descriptor ORB ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=115 keypoints in 14.3989 ms
+detection with n=115 keypoints in 14.4113 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.893573 ms
+ORB descriptor extraction in 0.934361 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 15.2925 ms
+Detection and descriptor extraction time 15.3457 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=98 keypoints in 28.1431 ms
+detection with n=98 keypoints in 27.6947 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.872879 ms
+ORB descriptor extraction in 0.904355 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 29.016 ms
-(KNN) with n=112matches in 0.1749 ms
+Detection and descriptor extraction time 28.599 ms
+(KNN) with n=112matches in 0.174663 ms
 # keypoints removed = 49
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=113 keypoints in 10.8137 ms
+detection with n=113 keypoints in 34.1569 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.972719 ms
+ORB descriptor extraction in 1.03159 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 11.7864 ms
-(KNN) with n=96matches in 0.166252 ms
+Detection and descriptor extraction time 35.1885 ms
+(KNN) with n=96matches in 0.172902 ms
 # keypoints removed = 41
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=121 keypoints in 10.7989 ms
+detection with n=121 keypoints in 11.125 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.943363 ms
+ORB descriptor extraction in 1.00464 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 11.7423 ms
-(KNN) with n=105matches in 0.183453 ms
+Detection and descriptor extraction time 12.1296 ms
+(KNN) with n=105matches in 0.302185 ms
 # keypoints removed = 40
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=160 keypoints in 11.2592 ms
+detection with n=160 keypoints in 18.1546 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 1.01161 ms
+ORB descriptor extraction in 1.03193 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 12.2708 ms
-(KNN) with n=111matches in 0.328654 ms
+Detection and descriptor extraction time 19.1866 ms
+(KNN) with n=111matches in 0.427381 ms
 # keypoints removed = 41
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=383 keypoints in 23.5395 ms
+detection with n=383 keypoints in 26.5946 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 1.24378 ms
+ORB descriptor extraction in 1.30533 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 24.7833 ms
-(KNN) with n=153matches in 1.38028 ms
+Detection and descriptor extraction time 27.8999 ms
+(KNN) with n=153matches in 1.5279 ms
 # keypoints removed = 62
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=85 keypoints in 10.684 ms
+detection with n=85 keypoints in 11.436 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.894344 ms
+ORB descriptor extraction in 0.943175 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 11.5784 ms
-(KNN) with n=353matches in 0.349183 ms
+Detection and descriptor extraction time 12.3792 ms
+(KNN) with n=353matches in 0.980595 ms
 # keypoints removed = 254
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=210 keypoints in 12.172 ms
+detection with n=210 keypoints in 16.9884 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 1.10674 ms
+ORB descriptor extraction in 1.1079 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.2787 ms
-(KNN) with n=80matches in 0.215646 ms
+Detection and descriptor extraction time 18.0963 ms
+(KNN) with n=80matches in 0.477317 ms
 # keypoints removed = 30
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=171 keypoints in 14.1821 ms
+detection with n=171 keypoints in 17.9825 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 1.31579 ms
+ORB descriptor extraction in 1.03758 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 15.4979 ms
-(KNN) with n=200matches in 0.827776 ms
+Detection and descriptor extraction time 19.0201 ms
+(KNN) with n=200matches in 0.858146 ms
 # keypoints removed = 87
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=281 keypoints in 20.4684 ms
+detection with n=281 keypoints in 26.7848 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 1.24632 ms
+ORB descriptor extraction in 1.24252 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 21.7147 ms
-(KNN) with n=163matches in 0.697024 ms
+Detection and descriptor extraction time 28.0274 ms
+(KNN) with n=163matches in 1.21433 ms
 # keypoints removed = 52
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector HARRIS *********** Descriptor FREAK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=115 keypoints in 14.5094 ms
+detection with n=115 keypoints in 16.1563 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 36.2442 ms
+FREAK descriptor extraction in 36.404 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 50.7536 ms
+Detection and descriptor extraction time 52.5603 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=98 keypoints in 10.7084 ms
+detection with n=98 keypoints in 26.8806 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 36.0183 ms
+FREAK descriptor extraction in 36.0484 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 46.7266 ms
-(KNN) with n=114matches in 0.51866 ms
+Detection and descriptor extraction time 62.929 ms
+(KNN) with n=114matches in 0.44123 ms
 # keypoints removed = 69
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=113 keypoints in 13.5358 ms
+detection with n=113 keypoints in 18.281 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 35.9718 ms
+FREAK descriptor extraction in 35.8128 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 49.5076 ms
-(KNN) with n=96matches in 0.566232 ms
+Detection and descriptor extraction time 54.0939 ms
+(KNN) with n=96matches in 0.500277 ms
 # keypoints removed = 58
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=121 keypoints in 14.6337 ms
+detection with n=121 keypoints in 14.6464 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 35.8797 ms
+FREAK descriptor extraction in 61.592 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 50.5134 ms
-(KNN) with n=108matches in 0.631478 ms
+Detection and descriptor extraction time 76.2384 ms
+(KNN) with n=108matches in 0.280797 ms
 # keypoints removed = 63
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=160 keypoints in 14.1102 ms
+detection with n=160 keypoints in 11.8541 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 36.2752 ms
+FREAK descriptor extraction in 36.5344 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 50.3854 ms
-(KNN) with n=113matches in 1.03433 ms
+Detection and descriptor extraction time 48.3885 ms
+(KNN) with n=113matches in 1.06807 ms
 # keypoints removed = 60
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=383 keypoints in 21.7263 ms
+detection with n=383 keypoints in 26.075 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 37.2995 ms
+FREAK descriptor extraction in 36.9633 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 59.0258 ms
-(KNN) with n=153matches in 3.02518 ms
+Detection and descriptor extraction time 63.0383 ms
+(KNN) with n=153matches in 3.11715 ms
 # keypoints removed = 83
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=85 keypoints in 12.6511 ms
+detection with n=85 keypoints in 18.7314 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 35.8314 ms
+FREAK descriptor extraction in 37.2917 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 48.4825 ms
-(KNN) with n=360matches in 1.49968 ms
+Detection and descriptor extraction time 56.023 ms
+(KNN) with n=360matches in 1.89317 ms
 # keypoints removed = 298
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=210 keypoints in 14.1003 ms
+detection with n=210 keypoints in 15.0042 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 36.4684 ms
+FREAK descriptor extraction in 36.4827 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 50.5687 ms
-(KNN) with n=82matches in 0.94798 ms
+Detection and descriptor extraction time 51.4869 ms
+(KNN) with n=82matches in 1.07782 ms
 # keypoints removed = 43
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=171 keypoints in 13.0138 ms
+detection with n=171 keypoints in 13.6448 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 36.3253 ms
+FREAK descriptor extraction in 60.0554 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 49.3391 ms
-(KNN) with n=203matches in 1.87529 ms
+Detection and descriptor extraction time 73.7002 ms
+(KNN) with n=203matches in 2.27391 ms
 # keypoints removed = 121
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=281 keypoints in 18.2719 ms
+detection with n=281 keypoints in 20.718 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 36.6008 ms
+FREAK descriptor extraction in 37.3602 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 54.8727 ms
-(KNN) with n=166matches in 2.8861 ms
+Detection and descriptor extraction time 58.0781 ms
+(KNN) with n=166matches in 2.58 ms
 # keypoints removed = 87
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector HARRIS *********** Descriptor SIFT ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=115 keypoints in 16.5281 ms
+detection with n=115 keypoints in 15.864 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 17.1232 ms
+SIFT descriptor extraction in 18.6006 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 33.6513 ms
+Detection and descriptor extraction time 34.4646 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=98 keypoints in 11.5482 ms
+detection with n=98 keypoints in 11.2259 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 15.8446 ms
+SIFT descriptor extraction in 16.3864 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 27.3928 ms
-(KNN) with n=115matches in 0.710243 ms
+Detection and descriptor extraction time 27.6122 ms
+(KNN) with n=115matches in 0.737904 ms
 # keypoints removed = 25
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=113 keypoints in 12.0273 ms
+detection with n=113 keypoints in 11.349 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 15.4537 ms
+SIFT descriptor extraction in 16.8204 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 27.481 ms
-(KNN) with n=98matches in 0.626665 ms
+Detection and descriptor extraction time 28.1694 ms
+(KNN) with n=98matches in 0.713353 ms
 # keypoints removed = 21
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=121 keypoints in 10.9978 ms
+detection with n=121 keypoints in 16.3771 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 17.0648 ms
+SIFT descriptor extraction in 30.5537 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 28.0626 ms
-(KNN) with n=113matches in 0.768202 ms
+Detection and descriptor extraction time 46.9309 ms
+(KNN) with n=113matches in 0.219691 ms
 # keypoints removed = 23
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=160 keypoints in 12.8444 ms
+detection with n=160 keypoints in 11.6822 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 19.5624 ms
+SIFT descriptor extraction in 19.89 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 32.4067 ms
-(KNN) with n=121matches in 1.08356 ms
+Detection and descriptor extraction time 31.5722 ms
+(KNN) with n=121matches in 1.32065 ms
 # keypoints removed = 26
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=383 keypoints in 19.7069 ms
+detection with n=383 keypoints in 20.5501 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 29.6602 ms
+SIFT descriptor extraction in 30.3725 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 49.3671 ms
-(KNN) with n=160matches in 1.03541 ms
+Detection and descriptor extraction time 50.9226 ms
+(KNN) with n=160matches in 3.15494 ms
 # keypoints removed = 19
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=85 keypoints in 10.6439 ms
+detection with n=85 keypoints in 10.8536 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 14.8488 ms
+SIFT descriptor extraction in 16.1948 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 25.4927 ms
-(KNN) with n=383matches in 2.05387 ms
+Detection and descriptor extraction time 27.0484 ms
+(KNN) with n=383matches in 2.29843 ms
 # keypoints removed = 263
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=210 keypoints in 12.221 ms
+detection with n=210 keypoints in 12.5682 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 21.0065 ms
+SIFT descriptor extraction in 21.4087 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 33.2275 ms
-(KNN) with n=85matches in 1.36627 ms
+Detection and descriptor extraction time 33.977 ms
+(KNN) with n=85matches in 1.22367 ms
 # keypoints removed = 13
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=171 keypoints in 11.4897 ms
+detection with n=171 keypoints in 11.7998 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 19.3268 ms
+SIFT descriptor extraction in 20.2262 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 30.8165 ms
-(KNN) with n=210matches in 2.78337 ms
+Detection and descriptor extraction time 32.026 ms
+(KNN) with n=210matches in 2.40769 ms
 # keypoints removed = 56
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=281 keypoints in 14.3061 ms
+detection with n=281 keypoints in 16.5054 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 24.6097 ms
+SIFT descriptor extraction in 15.217 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 38.9158 ms
-(KNN) with n=171matches in 2.89823 ms
+Detection and descriptor extraction time 31.7224 ms
+(KNN) with n=171matches in 2.59206 ms
 # keypoints removed = 11
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector FAST *********** Descriptor BRISK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=5063 keypoints in 1.80082 ms
+detection with n=5063 keypoints in 6.96632 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 39.6804 ms
+BRISK descriptor extraction in 40.1181 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 41.4812 ms
+Detection and descriptor extraction time 47.0844 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4952 keypoints in 6.33781 ms
+detection with n=4952 keypoints in 6.22414 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 38.2957 ms
+BRISK descriptor extraction in 38.4773 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 44.6335 ms
-(KNN) with n=4839matches in 472.155 ms
+Detection and descriptor extraction time 44.7014 ms
+(KNN) with n=4839matches in 592.566 ms
 # keypoints removed = 3181
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4863 keypoints in 5.9177 ms
+detection with n=4863 keypoints in 1.53033 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 37.3059 ms
+BRISK descriptor extraction in 84.4183 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 43.2236 ms
-(KNN) with n=4710matches in 453.268 ms
+Detection and descriptor extraction time 85.9487 ms
+(KNN) with n=4710matches in 780.674 ms
 # keypoints removed = 3066
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4840 keypoints in 1.50717 ms
+detection with n=4840 keypoints in 1.8026 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 37.5888 ms
+BRISK descriptor extraction in 71.5129 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 39.096 ms
-(KNN) with n=4619matches in 476.916 ms
+Detection and descriptor extraction time 73.3155 ms
+(KNN) with n=4619matches in 714.803 ms
 # keypoints removed = 2987
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4856 keypoints in 1.55285 ms
+detection with n=4856 keypoints in 1.97139 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 45.2727 ms
+BRISK descriptor extraction in 56.1023 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 46.8255 ms
-(KNN) with n=4640matches in 554.541 ms
+Detection and descriptor extraction time 58.0737 ms
+(KNN) with n=4640matches in 857.322 ms
 # keypoints removed = 3101
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4899 keypoints in 1.58987 ms
+detection with n=4899 keypoints in 4.91053 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 37.6029 ms
+BRISK descriptor extraction in 48.7312 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 39.1928 ms
-(KNN) with n=4628matches in 552.258 ms
+Detection and descriptor extraction time 53.6418 ms
+(KNN) with n=4628matches in 749.25 ms
 # keypoints removed = 2968
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4870 keypoints in 1.68836 ms
+detection with n=4870 keypoints in 7.67871 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 37.4376 ms
+BRISK descriptor extraction in 37.7494 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 39.126 ms
-(KNN) with n=4642matches in 536.768 ms
+Detection and descriptor extraction time 45.4281 ms
+(KNN) with n=4642matches in 629.332 ms
 # keypoints removed = 3091
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4868 keypoints in 6.11419 ms
+detection with n=4868 keypoints in 1.75369 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 37.4798 ms
+BRISK descriptor extraction in 37.7415 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 43.594 ms
-(KNN) with n=4623matches in 572.446 ms
+Detection and descriptor extraction time 39.4952 ms
+(KNN) with n=4623matches in 455.89 ms
 # keypoints removed = 3135
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4996 keypoints in 1.63102 ms
+detection with n=4996 keypoints in 1.84962 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 55.7114 ms
+BRISK descriptor extraction in 39.0009 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 57.3424 ms
-(KNN) with n=4619matches in 623.66 ms
+Detection and descriptor extraction time 40.8505 ms
+(KNN) with n=4619matches in 593.484 ms
 # keypoints removed = 3067
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4997 keypoints in 1.74306 ms
+detection with n=4997 keypoints in 1.88053 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 56.6457 ms
+BRISK descriptor extraction in 38.7616 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 58.3887 ms
-(KNN) with n=4730matches in 630.43 ms
+Detection and descriptor extraction time 40.6421 ms
+(KNN) with n=4730matches in 540.387 ms
 # keypoints removed = 3198
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector FAST *********** Descriptor BRIEF ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=5063 keypoints in 1.63453 ms
+detection with n=5063 keypoints in 7.07988 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 12.4507 ms
+BRIEF descriptor extraction in 26.916 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 14.0852 ms
+Detection and descriptor extraction time 33.9959 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4952 keypoints in 6.22948 ms
+detection with n=4952 keypoints in 6.94866 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 28.9935 ms
+BRIEF descriptor extraction in 26.2691 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 35.223 ms
-(KNN) with n=4511matches in 222.185 ms
+Detection and descriptor extraction time 33.2177 ms
+(KNN) with n=4511matches in 300.174 ms
 # keypoints removed = 2407
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4863 keypoints in 1.66593 ms
+detection with n=4863 keypoints in 6.23013 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 11.7538 ms
+BRIEF descriptor extraction in 24.8977 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.4198 ms
-(KNN) with n=4415matches in 209.286 ms
+Detection and descriptor extraction time 31.1278 ms
+(KNN) with n=4415matches in 256.536 ms
 # keypoints removed = 2306
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4840 keypoints in 1.58977 ms
+detection with n=4840 keypoints in 1.57706 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 11.8637 ms
+BRIEF descriptor extraction in 11.6854 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.4535 ms
-(KNN) with n=4362matches in 242.329 ms
+Detection and descriptor extraction time 13.2625 ms
+(KNN) with n=4362matches in 297.62 ms
 # keypoints removed = 2203
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4856 keypoints in 1.55457 ms
+detection with n=4856 keypoints in 1.57106 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 11.7256 ms
+BRIEF descriptor extraction in 11.4634 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.2802 ms
-(KNN) with n=4383matches in 238.224 ms
+Detection and descriptor extraction time 13.0345 ms
+(KNN) with n=4383matches in 274.685 ms
 # keypoints removed = 2280
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4899 keypoints in 1.63606 ms
+detection with n=4899 keypoints in 1.66067 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 11.8929 ms
+BRIEF descriptor extraction in 11.8487 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.529 ms
-(KNN) with n=4361matches in 321.26 ms
+Detection and descriptor extraction time 13.5094 ms
+(KNN) with n=4361matches in 221.165 ms
 # keypoints removed = 2261
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4870 keypoints in 1.52436 ms
+detection with n=4870 keypoints in 1.56858 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 11.869 ms
+BRIEF descriptor extraction in 11.5874 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.3933 ms
-(KNN) with n=4375matches in 287.514 ms
+Detection and descriptor extraction time 13.156 ms
+(KNN) with n=4375matches in 379.644 ms
 # keypoints removed = 2350
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4868 keypoints in 1.56007 ms
+detection with n=4868 keypoints in 6.42527 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 11.524 ms
+BRIEF descriptor extraction in 26.509 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.0841 ms
-(KNN) with n=4313matches in 240.185 ms
+Detection and descriptor extraction time 32.9343 ms
+(KNN) with n=4313matches in 331.089 ms
 # keypoints removed = 2314
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4996 keypoints in 1.46208 ms
+detection with n=4996 keypoints in 1.73564 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 11.9955 ms
+BRIEF descriptor extraction in 11.7758 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.4576 ms
-(KNN) with n=4303matches in 220.647 ms
+Detection and descriptor extraction time 13.5115 ms
+(KNN) with n=4303matches in 251.69 ms
 # keypoints removed = 2185
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4997 keypoints in 1.70629 ms
+detection with n=4997 keypoints in 1.69198 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 11.9297 ms
+BRIEF descriptor extraction in 11.8605 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 13.6359 ms
-(KNN) with n=4387matches in 230.44 ms
+Detection and descriptor extraction time 13.5525 ms
+(KNN) with n=4387matches in 284.15 ms
 # keypoints removed = 2339
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector FAST *********** Descriptor ORB ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=5063 keypoints in 6.65111 ms
+detection with n=5063 keypoints in 1.54726 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 24.459 ms
+ORB descriptor extraction in 6.53378 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 31.1101 ms
+Detection and descriptor extraction time 8.08104 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4952 keypoints in 1.56228 ms
+detection with n=4952 keypoints in 1.6165 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 6.49875 ms
+ORB descriptor extraction in 6.51885 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 8.06103 ms
-(KNN) with n=4454matches in 220.217 ms
+Detection and descriptor extraction time 8.13535 ms
+(KNN) with n=4454matches in 288.659 ms
 # keypoints removed = 2598
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4863 keypoints in 1.60608 ms
+detection with n=4863 keypoints in 1.64057 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 6.41826 ms
+ORB descriptor extraction in 6.33406 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 8.02433 ms
-(KNN) with n=4372matches in 221.95 ms
+Detection and descriptor extraction time 7.97462 ms
+(KNN) with n=4372matches in 193.396 ms
 # keypoints removed = 2546
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4840 keypoints in 1.50868 ms
+detection with n=4840 keypoints in 6.15477 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 6.38494 ms
+ORB descriptor extraction in 19.4926 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 7.89362 ms
-(KNN) with n=4311matches in 215.262 ms
+Detection and descriptor extraction time 25.6474 ms
+(KNN) with n=4311matches in 275.056 ms
 # keypoints removed = 2450
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4856 keypoints in 1.48857 ms
+detection with n=4856 keypoints in 6.42213 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 6.4822 ms
+ORB descriptor extraction in 17.8305 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 7.97077 ms
-(KNN) with n=4333matches in 262.414 ms
+Detection and descriptor extraction time 24.2526 ms
+(KNN) with n=4333matches in 250.624 ms
 # keypoints removed = 2580
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4899 keypoints in 6.13266 ms
+detection with n=4899 keypoints in 6.11246 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 23.3774 ms
+ORB descriptor extraction in 19.8894 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 29.5101 ms
-(KNN) with n=4302matches in 229.684 ms
+Detection and descriptor extraction time 26.0019 ms
+(KNN) with n=4302matches in 273.082 ms
 # keypoints removed = 2456
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4870 keypoints in 6.22102 ms
+detection with n=4870 keypoints in 1.70688 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 19.798 ms
+ORB descriptor extraction in 6.24238 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 26.019 ms
-(KNN) with n=4330matches in 187.768 ms
+Detection and descriptor extraction time 7.94927 ms
+(KNN) with n=4330matches in 271.452 ms
 # keypoints removed = 2514
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4868 keypoints in 6.36961 ms
+detection with n=4868 keypoints in 1.61246 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 21.4398 ms
+ORB descriptor extraction in 6.26348 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 27.8094 ms
-(KNN) with n=4243matches in 252.538 ms
+Detection and descriptor extraction time 7.87594 ms
+(KNN) with n=4243matches in 257.397 ms
 # keypoints removed = 2501
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4996 keypoints in 6.46125 ms
+detection with n=4996 keypoints in 2.69132 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 19.5891 ms
+ORB descriptor extraction in 6.39068 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 26.0503 ms
-(KNN) with n=4229matches in 195.149 ms
+Detection and descriptor extraction time 9.082 ms
+(KNN) with n=4229matches in 257.031 ms
 # keypoints removed = 2397
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4997 keypoints in 6.48789 ms
+detection with n=4997 keypoints in 1.65106 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 18.5962 ms
+ORB descriptor extraction in 6.33845 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 25.0841 ms
-(KNN) with n=4309matches in 206.283 ms
+Detection and descriptor extraction time 7.9895 ms
+(KNN) with n=4309matches in 374.235 ms
 # keypoints removed = 2524
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector FAST *********** Descriptor FREAK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=5063 keypoints in 1.64355 ms
+detection with n=5063 keypoints in 1.59098 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 63.2426 ms
+FREAK descriptor extraction in 62.7694 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 64.8861 ms
+Detection and descriptor extraction time 64.3604 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4952 keypoints in 6.32124 ms
+detection with n=4952 keypoints in 7.19278 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 70.781 ms
+FREAK descriptor extraction in 76.3881 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 77.1023 ms
-(KNN) with n=4593matches in 530.635 ms
+Detection and descriptor extraction time 83.5809 ms
+(KNN) with n=4593matches in 611.611 ms
 # keypoints removed = 3327
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4863 keypoints in 1.8396 ms
+detection with n=4863 keypoints in 1.68287 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 62.0656 ms
+FREAK descriptor extraction in 60.5627 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 63.9052 ms
-(KNN) with n=4494matches in 526.965 ms
+Detection and descriptor extraction time 62.2456 ms
+(KNN) with n=4494matches in 769.175 ms
 # keypoints removed = 3188
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4840 keypoints in 1.54364 ms
+detection with n=4840 keypoints in 1.82612 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 61.0804 ms
+FREAK descriptor extraction in 60.3528 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 62.624 ms
-(KNN) with n=4434matches in 616.303 ms
+Detection and descriptor extraction time 62.1789 ms
+(KNN) with n=4434matches in 644.018 ms
 # keypoints removed = 3111
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4856 keypoints in 1.4895 ms
+detection with n=4856 keypoints in 1.83861 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 61.8424 ms
+FREAK descriptor extraction in 61.2985 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 63.3319 ms
-(KNN) with n=4465matches in 462.579 ms
+Detection and descriptor extraction time 63.1371 ms
+(KNN) with n=4465matches in 566.149 ms
 # keypoints removed = 3276
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4899 keypoints in 1.58552 ms
+detection with n=4899 keypoints in 1.79766 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 60.4743 ms
+FREAK descriptor extraction in 60.2537 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 62.0598 ms
-(KNN) with n=4445matches in 517.964 ms
+Detection and descriptor extraction time 62.0514 ms
+(KNN) with n=4445matches in 592.055 ms
 # keypoints removed = 3088
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4870 keypoints in 1.68686 ms
+detection with n=4870 keypoints in 7.01115 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 61.0245 ms
+FREAK descriptor extraction in 70.6617 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 62.7114 ms
-(KNN) with n=4451matches in 488.352 ms
+Detection and descriptor extraction time 77.6729 ms
+(KNN) with n=4451matches in 547.994 ms
 # keypoints removed = 3270
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4868 keypoints in 1.49958 ms
+detection with n=4868 keypoints in 1.85119 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 61.1055 ms
+FREAK descriptor extraction in 60.6564 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 62.6051 ms
-(KNN) with n=4403matches in 502.358 ms
+Detection and descriptor extraction time 62.5076 ms
+(KNN) with n=4403matches in 525.232 ms
 # keypoints removed = 3307
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4996 keypoints in 1.45185 ms
+detection with n=4996 keypoints in 1.65247 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 62.5857 ms
+FREAK descriptor extraction in 61.3376 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 64.0375 ms
-(KNN) with n=4398matches in 564.465 ms
+Detection and descriptor extraction time 62.99 ms
+(KNN) with n=4398matches in 652.517 ms
 # keypoints removed = 3136
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4997 keypoints in 1.57463 ms
+detection with n=4997 keypoints in 6.70803 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 62.4872 ms
+FREAK descriptor extraction in 75.7336 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 64.0618 ms
-(KNN) with n=4494matches in 542.517 ms
+Detection and descriptor extraction time 82.4416 ms
+(KNN) with n=4494matches in 599.683 ms
 # keypoints removed = 3268
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector FAST *********** Descriptor SIFT ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=5063 keypoints in 1.57147 ms
+detection with n=5063 keypoints in 1.60519 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 210.763 ms
+SIFT descriptor extraction in 213.353 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 212.335 ms
+Detection and descriptor extraction time 214.958 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4952 keypoints in 1.73821 ms
+detection with n=4952 keypoints in 1.75965 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 201.156 ms
+SIFT descriptor extraction in 188.006 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 202.894 ms
-(KNN) with n=5063matches in 718.039 ms
+Detection and descriptor extraction time 189.766 ms
+(KNN) with n=5063matches in 709.994 ms
 # keypoints removed = 1709
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4863 keypoints in 1.85572 ms
+detection with n=4863 keypoints in 1.43529 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 175.651 ms
+SIFT descriptor extraction in 120.955 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 177.506 ms
-(KNN) with n=4952matches in 689.438 ms
+Detection and descriptor extraction time 122.39 ms
+(KNN) with n=4952matches in 687.737 ms
 # keypoints removed = 1696
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4840 keypoints in 6.11482 ms
+detection with n=4840 keypoints in 2.09542 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 195.817 ms
+SIFT descriptor extraction in 152.355 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 201.932 ms
-(KNN) with n=4863matches in 694.476 ms
+Detection and descriptor extraction time 154.45 ms
+(KNN) with n=4863matches in 694.207 ms
 # keypoints removed = 1603
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4856 keypoints in 6.16544 ms
+detection with n=4856 keypoints in 6.30347 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 172.906 ms
+SIFT descriptor extraction in 204.05 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 179.072 ms
-(KNN) with n=4840matches in 697.381 ms
+Detection and descriptor extraction time 210.354 ms
+(KNN) with n=4840matches in 690.018 ms
 # keypoints removed = 1611
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4899 keypoints in 1.88914 ms
+detection with n=4899 keypoints in 3.57201 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 174.744 ms
+SIFT descriptor extraction in 110.85 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 176.633 ms
-(KNN) with n=4856matches in 672.044 ms
+Detection and descriptor extraction time 114.422 ms
+(KNN) with n=4856matches in 691.522 ms
 # keypoints removed = 1648
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4870 keypoints in 1.53036 ms
+detection with n=4870 keypoints in 1.73652 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 178.357 ms
+SIFT descriptor extraction in 145.622 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 179.887 ms
-(KNN) with n=4899matches in 691.728 ms
+Detection and descriptor extraction time 147.358 ms
+(KNN) with n=4899matches in 675.19 ms
 # keypoints removed = 1618
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4868 keypoints in 1.56619 ms
+detection with n=4868 keypoints in 6.49446 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 163.869 ms
+SIFT descriptor extraction in 169.582 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 165.436 ms
-(KNN) with n=4870matches in 672.234 ms
+Detection and descriptor extraction time 176.076 ms
+(KNN) with n=4870matches in 799.442 ms
 # keypoints removed = 1614
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4996 keypoints in 6.14358 ms
+detection with n=4996 keypoints in 1.55406 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 170.978 ms
+SIFT descriptor extraction in 235.882 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 177.122 ms
-(KNN) with n=4868matches in 697.826 ms
+Detection and descriptor extraction time 237.436 ms
+(KNN) with n=4868matches in 750.104 ms
 # keypoints removed = 1587
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=4997 keypoints in 1.70318 ms
+detection with n=4997 keypoints in 1.71583 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 176.763 ms
+SIFT descriptor extraction in 234.323 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 178.466 ms
-(KNN) with n=4996matches in 745.832 ms
+Detection and descriptor extraction time 236.039 ms
+(KNN) with n=4996matches in 801.02 ms
 # keypoints removed = 1659
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector BRISK *********** Descriptor BRISK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 331.569 ms
+detection with n=2757 keypoints in 732.889 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 22.9228 ms
+BRISK descriptor extraction in 49.8003 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 354.492 ms
+Detection and descriptor extraction time 782.689 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2777 keypoints in 362.818 ms
+detection with n=2777 keypoints in 788.928 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 23.0775 ms
+BRISK descriptor extraction in 115.298 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 385.896 ms
-(KNN) with n=2757matches in 215.551 ms
+Detection and descriptor extraction time 904.226 ms
+(KNN) with n=2757matches in 430.075 ms
 # keypoints removed = 1665
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2741 keypoints in 333.938 ms
+detection with n=2741 keypoints in 509.6 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 23.001 ms
+BRISK descriptor extraction in 38.6689 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 356.938 ms
-(KNN) with n=2777matches in 188.307 ms
+Detection and descriptor extraction time 548.269 ms
+(KNN) with n=2777matches in 389.041 ms
 # keypoints removed = 1690
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2735 keypoints in 345.247 ms
+detection with n=2735 keypoints in 511.657 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 22.5304 ms
+BRISK descriptor extraction in 55.2277 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 367.777 ms
-(KNN) with n=2741matches in 177.932 ms
+Detection and descriptor extraction time 566.884 ms
+(KNN) with n=2741matches in 305.126 ms
 # keypoints removed = 1637
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 331.22 ms
+detection with n=2757 keypoints in 647.408 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 22.7928 ms
+BRISK descriptor extraction in 44.9479 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 354.013 ms
-(KNN) with n=2735matches in 273.265 ms
+Detection and descriptor extraction time 692.356 ms
+(KNN) with n=2735matches in 280.723 ms
 # keypoints removed = 1682
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2695 keypoints in 353.853 ms
+detection with n=2695 keypoints in 563.584 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 22.3059 ms
+BRISK descriptor extraction in 22.8599 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 376.159 ms
-(KNN) with n=2757matches in 208.24 ms
+Detection and descriptor extraction time 586.444 ms
+(KNN) with n=2757matches in 240.249 ms
 # keypoints removed = 1690
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2715 keypoints in 352.985 ms
+detection with n=2715 keypoints in 395.316 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 22.438 ms
+BRISK descriptor extraction in 28.5366 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 375.423 ms
-(KNN) with n=2695matches in 208.799 ms
+Detection and descriptor extraction time 423.853 ms
+(KNN) with n=2695matches in 306.853 ms
 # keypoints removed = 1657
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2628 keypoints in 330.098 ms
+detection with n=2628 keypoints in 626.364 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 21.7354 ms
+BRISK descriptor extraction in 33.0905 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 351.833 ms
-(KNN) with n=2715matches in 208.457 ms
+Detection and descriptor extraction time 659.455 ms
+(KNN) with n=2715matches in 364.485 ms
 # keypoints removed = 1699
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2639 keypoints in 349.267 ms
+detection with n=2639 keypoints in 559.639 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 22.1391 ms
+BRISK descriptor extraction in 22.2656 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 371.406 ms
-(KNN) with n=2628matches in 198.723 ms
+Detection and descriptor extraction time 581.905 ms
+(KNN) with n=2628matches in 254.549 ms
 # keypoints removed = 1644
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2672 keypoints in 329.274 ms
+detection with n=2672 keypoints in 472.056 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 22.1429 ms
+BRISK descriptor extraction in 22.4556 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 351.417 ms
-(KNN) with n=2639matches in 199.128 ms
+Detection and descriptor extraction time 494.512 ms
+(KNN) with n=2639matches in 261.486 ms
 # keypoints removed = 1650
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector BRISK *********** Descriptor BRIEF ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 333.285 ms
+detection with n=2757 keypoints in 393.762 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.41697 ms
+BRIEF descriptor extraction in 7.64689 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 340.702 ms
+Detection and descriptor extraction time 401.409 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2777 keypoints in 368.432 ms
+detection with n=2777 keypoints in 408.7 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.60165 ms
+BRIEF descriptor extraction in 7.65303 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 376.034 ms
-(KNN) with n=2735matches in 101.782 ms
+Detection and descriptor extraction time 416.353 ms
+(KNN) with n=2735matches in 173.972 ms
 # keypoints removed = 1558
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2741 keypoints in 327.818 ms
+detection with n=2741 keypoints in 357.146 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.5023 ms
+BRIEF descriptor extraction in 7.5683 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 335.32 ms
-(KNN) with n=2751matches in 153.199 ms
+Detection and descriptor extraction time 364.715 ms
+(KNN) with n=2751matches in 146.95 ms
 # keypoints removed = 1434
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2735 keypoints in 359.039 ms
+detection with n=2735 keypoints in 371.988 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.31336 ms
+BRIEF descriptor extraction in 7.45738 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 366.352 ms
-(KNN) with n=2722matches in 101.209 ms
+Detection and descriptor extraction time 379.445 ms
+(KNN) with n=2722matches in 150.081 ms
 # keypoints removed = 1491
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 324.329 ms
+detection with n=2757 keypoints in 350.467 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.42979 ms
+BRIEF descriptor extraction in 26.6048 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 331.759 ms
-(KNN) with n=2714matches in 133.579 ms
+Detection and descriptor extraction time 377.072 ms
+(KNN) with n=2714matches in 144.606 ms
 # keypoints removed = 1495
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2695 keypoints in 367.254 ms
+detection with n=2695 keypoints in 352.915 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.25823 ms
+BRIEF descriptor extraction in 7.21882 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 374.512 ms
-(KNN) with n=2727matches in 130.153 ms
+Detection and descriptor extraction time 360.133 ms
+(KNN) with n=2727matches in 142.528 ms
 # keypoints removed = 1516
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2715 keypoints in 344.777 ms
+detection with n=2715 keypoints in 352.264 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.22199 ms
+BRIEF descriptor extraction in 7.4209 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 351.999 ms
-(KNN) with n=2657matches in 134.303 ms
+Detection and descriptor extraction time 359.685 ms
+(KNN) with n=2657matches in 155.232 ms
 # keypoints removed = 1494
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2628 keypoints in 355.782 ms
+detection with n=2628 keypoints in 333.943 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.05191 ms
+BRIEF descriptor extraction in 25.3711 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 362.833 ms
-(KNN) with n=2672matches in 142.909 ms
+Detection and descriptor extraction time 359.314 ms
+(KNN) with n=2672matches in 151.403 ms
 # keypoints removed = 1449
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2639 keypoints in 371.291 ms
+detection with n=2639 keypoints in 324.176 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.16037 ms
+BRIEF descriptor extraction in 23.265 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 378.451 ms
-(KNN) with n=2595matches in 133.592 ms
+Detection and descriptor extraction time 347.441 ms
+(KNN) with n=2595matches in 133.609 ms
 # keypoints removed = 1355
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2672 keypoints in 350.667 ms
+detection with n=2672 keypoints in 332.419 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 7.22794 ms
+BRIEF descriptor extraction in 7.3123 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 357.895 ms
-(KNN) with n=2614matches in 130.229 ms
+Detection and descriptor extraction time 339.731 ms
+(KNN) with n=2614matches in 150.892 ms
 # keypoints removed = 1431
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector BRISK *********** Descriptor ORB ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 328.583 ms
+detection with n=2757 keypoints in 351.493 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 24.1392 ms
+ORB descriptor extraction in 25.0614 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 352.723 ms
+Detection and descriptor extraction time 376.554 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2777 keypoints in 361.444 ms
+detection with n=2777 keypoints in 352.13 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 24.8597 ms
+ORB descriptor extraction in 23.8492 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 386.304 ms
-(KNN) with n=2723matches in 112.071 ms
+Detection and descriptor extraction time 375.979 ms
+(KNN) with n=2723matches in 142.552 ms
 # keypoints removed = 1985
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2741 keypoints in 337.662 ms
+detection with n=2741 keypoints in 332.479 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 24.8577 ms
+ORB descriptor extraction in 25.8402 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 362.519 ms
-(KNN) with n=2745matches in 93.7402 ms
+Detection and descriptor extraction time 358.319 ms
+(KNN) with n=2745matches in 104.793 ms
 # keypoints removed = 2011
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2735 keypoints in 390.099 ms
+detection with n=2735 keypoints in 347.822 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 25.3937 ms
+ORB descriptor extraction in 22.7214 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 415.493 ms
-(KNN) with n=2706matches in 91.5338 ms
+Detection and descriptor extraction time 370.544 ms
+(KNN) with n=2706matches in 139.62 ms
 # keypoints removed = 1934
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 369.462 ms
+detection with n=2757 keypoints in 357.535 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 25.6824 ms
+ORB descriptor extraction in 23.3465 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 395.144 ms
-(KNN) with n=2697matches in 124.767 ms
+Detection and descriptor extraction time 380.882 ms
+(KNN) with n=2697matches in 151.532 ms
 # keypoints removed = 1972
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2695 keypoints in 367.609 ms
+detection with n=2695 keypoints in 329.233 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 7.10454 ms
+ORB descriptor extraction in 24.1399 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 374.714 ms
-(KNN) with n=2712matches in 148.991 ms
+Detection and descriptor extraction time 353.373 ms
+(KNN) with n=2712matches in 92.4312 ms
 # keypoints removed = 1959
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2715 keypoints in 332.228 ms
+detection with n=2715 keypoints in 371.282 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 23.7364 ms
+ORB descriptor extraction in 26.01 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 355.964 ms
-(KNN) with n=2646matches in 123.54 ms
+Detection and descriptor extraction time 397.292 ms
+(KNN) with n=2646matches in 149.232 ms
 # keypoints removed = 1919
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2628 keypoints in 359.554 ms
+detection with n=2628 keypoints in 332.316 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 25.6808 ms
+ORB descriptor extraction in 24.1938 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 385.235 ms
-(KNN) with n=2653matches in 134.153 ms
+Detection and descriptor extraction time 356.51 ms
+(KNN) with n=2653matches in 142.065 ms
 # keypoints removed = 1973
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2639 keypoints in 333.739 ms
+detection with n=2639 keypoints in 375.226 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 24.6824 ms
+ORB descriptor extraction in 27.1158 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 358.422 ms
-(KNN) with n=2581matches in 109.841 ms
+Detection and descriptor extraction time 402.342 ms
+(KNN) with n=2581matches in 151.527 ms
 # keypoints removed = 1867
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2672 keypoints in 353.147 ms
+detection with n=2672 keypoints in 396.318 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 24.9182 ms
+ORB descriptor extraction in 22.8368 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 378.065 ms
-(KNN) with n=2604matches in 125.84 ms
+Detection and descriptor extraction time 419.155 ms
+(KNN) with n=2604matches in 132.446 ms
 # keypoints removed = 1927
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector BRISK *********** Descriptor FREAK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 354.909 ms
+detection with n=2757 keypoints in 353.195 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 50.244 ms
+FREAK descriptor extraction in 51.2433 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 405.153 ms
+Detection and descriptor extraction time 404.438 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2777 keypoints in 334.075 ms
+detection with n=2777 keypoints in 328.388 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 50.1273 ms
+FREAK descriptor extraction in 50.3904 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 384.203 ms
-(KNN) with n=2343matches in 189.642 ms
+Detection and descriptor extraction time 378.778 ms
+(KNN) with n=2343matches in 197.035 ms
 # keypoints removed = 1491
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2741 keypoints in 363.454 ms
+detection with n=2741 keypoints in 353.126 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 51.9256 ms
+FREAK descriptor extraction in 50.2179 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 415.379 ms
-(KNN) with n=2320matches in 137.614 ms
+Detection and descriptor extraction time 403.344 ms
+(KNN) with n=2320matches in 232.491 ms
 # keypoints removed = 1435
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2735 keypoints in 374.763 ms
+detection with n=2735 keypoints in 412.475 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 49.6308 ms
+FREAK descriptor extraction in 113.472 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 424.394 ms
-(KNN) with n=2311matches in 196.088 ms
+Detection and descriptor extraction time 525.947 ms
+(KNN) with n=2311matches in 252.393 ms
 # keypoints removed = 1438
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 349.961 ms
+detection with n=2757 keypoints in 439.379 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 49.6139 ms
+FREAK descriptor extraction in 69.2205 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 399.575 ms
-(KNN) with n=2307matches in 206.549 ms
+Detection and descriptor extraction time 508.6 ms
+(KNN) with n=2307matches in 261.737 ms
 # keypoints removed = 1526
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2695 keypoints in 336.501 ms
+detection with n=2695 keypoints in 464.328 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 49.5298 ms
+FREAK descriptor extraction in 81.6291 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 386.03 ms
-(KNN) with n=2333matches in 200.701 ms
+Detection and descriptor extraction time 545.957 ms
+(KNN) with n=2333matches in 234.089 ms
 # keypoints removed = 1463
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2715 keypoints in 369.144 ms
+detection with n=2715 keypoints in 411.885 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 50.4367 ms
+FREAK descriptor extraction in 71.8138 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 419.581 ms
-(KNN) with n=2298matches in 190.288 ms
+Detection and descriptor extraction time 483.699 ms
+(KNN) with n=2298matches in 262.926 ms
 # keypoints removed = 1481
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2628 keypoints in 342.179 ms
+detection with n=2628 keypoints in 1074.16 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 48.7483 ms
+FREAK descriptor extraction in 64.8179 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 390.927 ms
-(KNN) with n=2316matches in 188.003 ms
+Detection and descriptor extraction time 1138.98 ms
+(KNN) with n=2316matches in 257.117 ms
 # keypoints removed = 1499
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2639 keypoints in 371.515 ms
+detection with n=2639 keypoints in 1079.06 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 50.3831 ms
+FREAK descriptor extraction in 196.188 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 421.898 ms
-(KNN) with n=2246matches in 182.236 ms
+Detection and descriptor extraction time 1275.24 ms
+(KNN) with n=2246matches in 276.582 ms
 # keypoints removed = 1424
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2672 keypoints in 326.992 ms
+detection with n=2672 keypoints in 1159.57 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 48.6405 ms
+FREAK descriptor extraction in 70.7118 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 375.632 ms
-(KNN) with n=2252matches in 206.771 ms
+Detection and descriptor extraction time 1230.28 ms
+(KNN) with n=2252matches in 254.267 ms
 # keypoints removed = 1467
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector BRISK *********** Descriptor SIFT ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 329.328 ms
+detection with n=2757 keypoints in 704.469 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 301.129 ms
+SIFT descriptor extraction in 383.7 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 630.457 ms
+Detection and descriptor extraction time 1088.17 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2777 keypoints in 355.136 ms
+detection with n=2777 keypoints in 960.578 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 302.968 ms
+SIFT descriptor extraction in 451.768 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 658.104 ms
-(KNN) with n=2757matches in 229.895 ms
+Detection and descriptor extraction time 1412.35 ms
+(KNN) with n=2757matches in 256.613 ms
 # keypoints removed = 1080
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2741 keypoints in 333.64 ms
+detection with n=2741 keypoints in 541.395 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 301.576 ms
+SIFT descriptor extraction in 360.478 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 635.217 ms
-(KNN) with n=2777matches in 221.209 ms
+Detection and descriptor extraction time 901.873 ms
+(KNN) with n=2777matches in 266.055 ms
 # keypoints removed = 1078
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2735 keypoints in 325.98 ms
+detection with n=2735 keypoints in 576.565 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 294.253 ms
+SIFT descriptor extraction in 356.364 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 620.233 ms
-(KNN) with n=2741matches in 222.049 ms
+Detection and descriptor extraction time 932.93 ms
+(KNN) with n=2741matches in 258.283 ms
 # keypoints removed = 1093
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2757 keypoints in 346.608 ms
+detection with n=2757 keypoints in 534.999 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 331.412 ms
+SIFT descriptor extraction in 385.609 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 678.021 ms
-(KNN) with n=2735matches in 222.339 ms
+Detection and descriptor extraction time 920.608 ms
+(KNN) with n=2735matches in 265.946 ms
 # keypoints removed = 1110
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2695 keypoints in 347.402 ms
+detection with n=2695 keypoints in 502.642 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 291.413 ms
+SIFT descriptor extraction in 368.098 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 638.814 ms
-(KNN) with n=2757matches in 224.561 ms
+Detection and descriptor extraction time 870.74 ms
+(KNN) with n=2757matches in 257.46 ms
 # keypoints removed = 1068
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2715 keypoints in 329.85 ms
+detection with n=2715 keypoints in 534.469 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 295.109 ms
+SIFT descriptor extraction in 393.465 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 624.959 ms
-(KNN) with n=2695matches in 211.651 ms
+Detection and descriptor extraction time 927.933 ms
+(KNN) with n=2695matches in 258.647 ms
 # keypoints removed = 1088
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2628 keypoints in 329.107 ms
+detection with n=2628 keypoints in 527.682 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 289.651 ms
+SIFT descriptor extraction in 346.892 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 618.758 ms
-(KNN) with n=2715matches in 213.658 ms
+Detection and descriptor extraction time 874.573 ms
+(KNN) with n=2715matches in 252.737 ms
 # keypoints removed = 1070
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2639 keypoints in 374.56 ms
+detection with n=2639 keypoints in 558.976 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 291.535 ms
+SIFT descriptor extraction in 383.669 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 666.095 ms
-(KNN) with n=2628matches in 208.409 ms
+Detection and descriptor extraction time 942.646 ms
+(KNN) with n=2628matches in 241.581 ms
 # keypoints removed = 1056
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=2672 keypoints in 346.036 ms
+detection with n=2672 keypoints in 651.429 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 288.063 ms
+SIFT descriptor extraction in 393.22 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 634.099 ms
-(KNN) with n=2639matches in 206.587 ms
+Detection and descriptor extraction time 1044.65 ms
+(KNN) with n=2639matches in 258.054 ms
 # keypoints removed = 1059
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector ORB *********** Descriptor BRISK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.002651 ms
+detection with n=500 keypoints in 12.4792 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.427453 ms
+BRISK descriptor extraction in 9.18385 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.430104 ms
+Detection and descriptor extraction time 21.663 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.002305 ms
+detection with n=500 keypoints in 24.2174 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.564397 ms
+BRISK descriptor extraction in 14.3051 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.566702 ms
-(KNN) with n=0matches in 0.005174 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 38.5225 ms
+(KNN) with n=378matches in 7.58113 ms
+# keypoints removed = 119
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.001594 ms
+detection with n=500 keypoints in 5.73236 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.38721 ms
+BRISK descriptor extraction in 4.41079 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.388804 ms
-(KNN) with n=0matches in 0.004605 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 10.1431 ms
+(KNN) with n=377matches in 8.69962 ms
+# keypoints removed = 123
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.00234 ms
+detection with n=500 keypoints in 19.5088 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.39299 ms
+BRISK descriptor extraction in 4.44062 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.39533 ms
-(KNN) with n=0matches in 0.005437 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 23.9494 ms
+(KNN) with n=383matches in 10.4877 ms
+# keypoints removed = 126
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.001869 ms
+detection with n=500 keypoints in 20.7409 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.362695 ms
+BRISK descriptor extraction in 7.79717 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.364564 ms
-(KNN) with n=0matches in 0.00455 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 28.5381 ms
+(KNN) with n=383matches in 8.92693 ms
+# keypoints removed = 116
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.00201 ms
+detection with n=500 keypoints in 23.3554 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.415543 ms
+BRISK descriptor extraction in 5.21279 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.417553 ms
-(KNN) with n=0matches in 0.005049 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 28.5682 ms
+(KNN) with n=396matches in 10.4598 ms
+# keypoints removed = 120
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.002626 ms
+detection with n=500 keypoints in 19.0649 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.467857 ms
+BRISK descriptor extraction in 4.7028 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.470483 ms
-(KNN) with n=0matches in 0.004222 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 23.7677 ms
+(KNN) with n=399matches in 9.89526 ms
+# keypoints removed = 116
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.002691 ms
+detection with n=500 keypoints in 6.70222 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.336407 ms
+BRISK descriptor extraction in 10.6151 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.339098 ms
-(KNN) with n=0matches in 0.005676 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 17.3173 ms
+(KNN) with n=410matches in 16.8924 ms
+# keypoints removed = 140
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.001599 ms
+detection with n=500 keypoints in 23.9454 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.390422 ms
+BRISK descriptor extraction in 4.35742 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.392021 ms
-(KNN) with n=0matches in 0.005382 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 28.3028 ms
+(KNN) with n=411matches in 10.6035 ms
+# keypoints removed = 149
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.001634 ms
+detection with n=500 keypoints in 25.834 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 0.660739 ms
+BRISK descriptor extraction in 4.3255 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.662373 ms
-(KNN) with n=0matches in 0.013421 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 30.1595 ms
+(KNN) with n=409matches in 9.06697 ms
+# keypoints removed = 141
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector ORB *********** Descriptor BRIEF ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000579 ms
+detection with n=500 keypoints in 5.91171 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.322211 ms
+BRIEF descriptor extraction in 1.90703 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.32279 ms
+Detection and descriptor extraction time 7.81874 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000653 ms
+detection with n=500 keypoints in 19.2546 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.339252 ms
+BRIEF descriptor extraction in 2.07898 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.339905 ms
-(KNN) with n=0matches in 0.004572 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 21.3336 ms
+(KNN) with n=500matches in 7.30962 ms
+# keypoints removed = 326
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000577 ms
+detection with n=500 keypoints in 5.93542 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.303178 ms
+BRIEF descriptor extraction in 1.6934 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.303755 ms
-(KNN) with n=0matches in 0.013032 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 7.62882 ms
+(KNN) with n=500matches in 4.36227 ms
+# keypoints removed = 312
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000612 ms
+detection with n=500 keypoints in 22.4026 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.241195 ms
+BRIEF descriptor extraction in 1.8469 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.241807 ms
-(KNN) with n=0matches in 0.002769 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 24.2495 ms
+(KNN) with n=500matches in 1.77181 ms
+# keypoints removed = 304
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000576 ms
+detection with n=500 keypoints in 5.62064 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.245556 ms
+BRIEF descriptor extraction in 1.7452 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.246132 ms
-(KNN) with n=0matches in 0.003735 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 7.36584 ms
+(KNN) with n=500matches in 6.58869 ms
+# keypoints removed = 297
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000591 ms
+detection with n=500 keypoints in 23.6458 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.299024 ms
+BRIEF descriptor extraction in 2.51657 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.299615 ms
-(KNN) with n=0matches in 0.006117 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 26.1624 ms
+(KNN) with n=500matches in 2.68786 ms
+# keypoints removed = 297
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000639 ms
+detection with n=500 keypoints in 5.82202 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.376365 ms
+BRIEF descriptor extraction in 1.74927 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.377004 ms
-(KNN) with n=0matches in 0.003263 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 7.5713 ms
+(KNN) with n=500matches in 6.61432 ms
+# keypoints removed = 288
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000623 ms
+detection with n=500 keypoints in 23.7007 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.263456 ms
+BRIEF descriptor extraction in 3.21426 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.264079 ms
-(KNN) with n=0matches in 0.003553 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 26.9149 ms
+(KNN) with n=500matches in 8.06206 ms
+# keypoints removed = 313
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000593 ms
+detection with n=500 keypoints in 25.0503 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.187956 ms
+BRIEF descriptor extraction in 3.39348 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.188549 ms
-(KNN) with n=0matches in 0.003075 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 28.4437 ms
+(KNN) with n=500matches in 1.7792 ms
+# keypoints removed = 305
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000589 ms
+detection with n=500 keypoints in 19.4089 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 0.213425 ms
+BRIEF descriptor extraction in 1.7923 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.214014 ms
-(KNN) with n=0matches in 0.004336 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 21.2012 ms
+(KNN) with n=500matches in 7.62943 ms
+# keypoints removed = 293
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector ORB *********** Descriptor ORB ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000602 ms
+detection with n=500 keypoints in 6.12168 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.106849 ms
+ORB descriptor extraction in 16.9712 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.107451 ms
+Detection and descriptor extraction time 23.0929 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000335 ms
+detection with n=500 keypoints in 23.9022 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.098069 ms
+ORB descriptor extraction in 8.81869 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.098404 ms
-(KNN) with n=0matches in 0.013259 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 32.7209 ms
+(KNN) with n=500matches in 1.77123 ms
+# keypoints removed = 299
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000323 ms
+detection with n=500 keypoints in 5.83734 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.096858 ms
+ORB descriptor extraction in 4.59566 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.097181 ms
-(KNN) with n=0matches in 0.00226 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 10.433 ms
+(KNN) with n=500matches in 6.3737 ms
+# keypoints removed = 275
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000584 ms
+detection with n=500 keypoints in 23.9643 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.100276 ms
+ORB descriptor extraction in 10.0367 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.10086 ms
-(KNN) with n=0matches in 0.001981 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 34.001 ms
+(KNN) with n=500matches in 1.82822 ms
+# keypoints removed = 263
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000635 ms
+detection with n=500 keypoints in 5.57914 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.101807 ms
+ORB descriptor extraction in 4.16383 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.102442 ms
-(KNN) with n=0matches in 0.002361 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 9.74297 ms
+(KNN) with n=500matches in 2.18149 ms
+# keypoints removed = 283
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.00061 ms
+detection with n=500 keypoints in 19.0969 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.103972 ms
+ORB descriptor extraction in 16.5167 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.104582 ms
-(KNN) with n=0matches in 0.003944 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 35.6136 ms
+(KNN) with n=500matches in 7.38338 ms
+# keypoints removed = 291
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000346 ms
+detection with n=500 keypoints in 19.0882 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.094878 ms
+ORB descriptor extraction in 16.0417 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.095224 ms
-(KNN) with n=0matches in 0.00446 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 35.1299 ms
+(KNN) with n=500matches in 7.41154 ms
+# keypoints removed = 273
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000419 ms
+detection with n=500 keypoints in 5.68997 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.095843 ms
+ORB descriptor extraction in 4.23295 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.096262 ms
-(KNN) with n=0matches in 0.003564 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 9.92292 ms
+(KNN) with n=500matches in 6.32787 ms
+# keypoints removed = 283
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000441 ms
+detection with n=500 keypoints in 23.3709 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.091286 ms
+ORB descriptor extraction in 6.1526 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.091727 ms
-(KNN) with n=0matches in 0.003703 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 29.5235 ms
+(KNN) with n=500matches in 1.72784 ms
+# keypoints removed = 299
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000421 ms
+detection with n=500 keypoints in 19.3227 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 0.107771 ms
+ORB descriptor extraction in 15.7501 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.108192 ms
-(KNN) with n=0matches in 0.003246 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 35.0727 ms
+(KNN) with n=500matches in 9.22463 ms
+# keypoints removed = 298
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector ORB *********** Descriptor FREAK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000372 ms
+detection with n=500 keypoints in 20.5545 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000937 ms
+FREAK descriptor extraction in 56.7489 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.001309 ms
+Detection and descriptor extraction time 77.3034 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000431 ms
+detection with n=500 keypoints in 23.1529 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000718 ms
+FREAK descriptor extraction in 57.4893 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.001149 ms
-(KNN) with n=0matches in 0.003054 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 80.6421 ms
+(KNN) with n=156matches in 0.421229 ms
+# keypoints removed = 62
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000421 ms
+detection with n=500 keypoints in 5.69352 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000525 ms
+FREAK descriptor extraction in 36.9119 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.000946 ms
-(KNN) with n=0matches in 0.003374 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 42.6054 ms
+(KNN) with n=154matches in 1.48238 ms
+# keypoints removed = 59
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000379 ms
+detection with n=500 keypoints in 6.9822 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000724 ms
+FREAK descriptor extraction in 57.7054 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.001103 ms
-(KNN) with n=0matches in 0.002739 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 64.6876 ms
+(KNN) with n=160matches in 0.472323 ms
+# keypoints removed = 62
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.00057 ms
+detection with n=500 keypoints in 18.9205 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000621 ms
+FREAK descriptor extraction in 58.1928 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.001191 ms
-(KNN) with n=0matches in 0.003658 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 77.1133 ms
+(KNN) with n=168matches in 0.45189 ms
+# keypoints removed = 64
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000592 ms
+detection with n=500 keypoints in 5.73205 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000991 ms
+FREAK descriptor extraction in 68.0972 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.001583 ms
-(KNN) with n=0matches in 0.005377 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 73.8293 ms
+(KNN) with n=153matches in 0.897873 ms
+# keypoints removed = 57
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000577 ms
+detection with n=500 keypoints in 19.9314 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000684 ms
+FREAK descriptor extraction in 60.5281 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.001261 ms
-(KNN) with n=0matches in 0.004037 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 80.4595 ms
+(KNN) with n=164matches in 1.63329 ms
+# keypoints removed = 59
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.00058 ms
+detection with n=500 keypoints in 9.71043 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000672 ms
+FREAK descriptor extraction in 59.649 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.001252 ms
-(KNN) with n=0matches in 0.002741 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 69.3594 ms
+(KNN) with n=172matches in 1.88643 ms
+# keypoints removed = 63
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.00062 ms
+detection with n=500 keypoints in 7.74705 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000586 ms
+FREAK descriptor extraction in 88.0186 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.001206 ms
-(KNN) with n=0matches in 0.00482 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 95.7657 ms
+(KNN) with n=177matches in 2.47842 ms
+# keypoints removed = 69
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000598 ms
+detection with n=500 keypoints in 20.2984 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 0.000602 ms
+FREAK descriptor extraction in 75.7696 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 0.0012 ms
-(KNN) with n=0matches in 0.002976 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 96.068 ms
+(KNN) with n=176matches in 0.603028 ms
+# keypoints removed = 72
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector ORB *********** Descriptor SIFT ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000574 ms
+detection with n=500 keypoints in 5.87028 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 18.0654 ms
+SIFT descriptor extraction in 188.54 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 18.066 ms
+Detection and descriptor extraction time 194.41 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000861 ms
+detection with n=500 keypoints in 5.56122 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 14.6201 ms
+SIFT descriptor extraction in 196.702 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 14.6209 ms
-(KNN) with n=0matches in 0.007314 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 202.263 ms
+(KNN) with n=500matches in 8.77212 ms
+# keypoints removed = 123
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000665 ms
+detection with n=500 keypoints in 23.1219 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 18.0594 ms
+SIFT descriptor extraction in 174.704 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 18.0601 ms
-(KNN) with n=0matches in 0.006772 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 197.826 ms
+(KNN) with n=500matches in 10.3873 ms
+# keypoints removed = 130
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000687 ms
+detection with n=500 keypoints in 30.6663 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 18.4641 ms
+SIFT descriptor extraction in 184.257 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 18.4648 ms
-(KNN) with n=0matches in 0.006691 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 214.924 ms
+(KNN) with n=500matches in 8.06094 ms
+# keypoints removed = 126
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000735 ms
+detection with n=500 keypoints in 18.8784 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 15.2279 ms
+SIFT descriptor extraction in 154.84 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 15.2287 ms
-(KNN) with n=0matches in 0.014572 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 173.719 ms
+(KNN) with n=500matches in 9.77194 ms
+# keypoints removed = 138
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000663 ms
+detection with n=500 keypoints in 5.52127 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 14.6795 ms
+SIFT descriptor extraction in 171.427 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 14.6801 ms
-(KNN) with n=0matches in 0.00863 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 176.949 ms
+(KNN) with n=500matches in 9.20669 ms
+# keypoints removed = 136
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000575 ms
+detection with n=500 keypoints in 24.0366 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 14.7937 ms
+SIFT descriptor extraction in 176.941 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 14.7943 ms
-(KNN) with n=0matches in 0.008356 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 200.978 ms
+(KNN) with n=500matches in 11.0611 ms
+# keypoints removed = 129
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000572 ms
+detection with n=500 keypoints in 27.6715 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 15.0465 ms
+SIFT descriptor extraction in 196.539 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 15.0471 ms
-(KNN) with n=0matches in 0.009034 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 224.211 ms
+(KNN) with n=500matches in 9.781 ms
+# keypoints removed = 121
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000533 ms
+detection with n=500 keypoints in 24.3603 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 18.4919 ms
+SIFT descriptor extraction in 224.408 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 18.4925 ms
-(KNN) with n=0matches in 0.008275 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 248.768 ms
+(KNN) with n=500matches in 10.078 ms
+# keypoints removed = 125
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=0 keypoints in 0.000689 ms
+detection with n=500 keypoints in 8.28669 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 14.7285 ms
+SIFT descriptor extraction in 191.069 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 14.7292 ms
-(KNN) with n=0matches in 0.007253 ms
-# keypoints removed = 0
+Detection and descriptor extraction time 199.356 ms
+(KNN) with n=500matches in 11.0926 ms
+# keypoints removed = 131
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector AKAZE *********** Descriptor BRISK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 123.521 ms
+detection with n=1351 keypoints in 133.227 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.2064 ms
+BRISK descriptor extraction in 11.1954 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 134.727 ms
+Detection and descriptor extraction time 144.422 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1327 keypoints in 104.988 ms
+detection with n=1327 keypoints in 108.259 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.1348 ms
+BRISK descriptor extraction in 10.8904 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 116.122 ms
-(KNN) with n=1351matches in 76.0284 ms
+Detection and descriptor extraction time 119.149 ms
+(KNN) with n=1351matches in 78.2955 ms
 # keypoints removed = 604
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1311 keypoints in 106.696 ms
+detection with n=1311 keypoints in 90.6952 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.9074 ms
+BRISK descriptor extraction in 10.7347 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 117.603 ms
-(KNN) with n=1327matches in 72.8825 ms
+Detection and descriptor extraction time 101.43 ms
+(KNN) with n=1327matches in 77.4898 ms
 # keypoints removed = 599
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 87.0032 ms
+detection with n=1351 keypoints in 112.305 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.5119 ms
+BRISK descriptor extraction in 11.1345 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 98.5151 ms
-(KNN) with n=1311matches in 72.6195 ms
+Detection and descriptor extraction time 123.439 ms
+(KNN) with n=1311matches in 75.8927 ms
 # keypoints removed = 548
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1360 keypoints in 113.139 ms
+detection with n=1360 keypoints in 117.456 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.1598 ms
+BRISK descriptor extraction in 10.9819 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 124.299 ms
-(KNN) with n=1351matches in 78.3263 ms
+Detection and descriptor extraction time 128.438 ms
+(KNN) with n=1351matches in 80.3572 ms
 # keypoints removed = 616
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1347 keypoints in 88.0912 ms
+detection with n=1347 keypoints in 113.617 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.0517 ms
+BRISK descriptor extraction in 10.986 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 99.143 ms
-(KNN) with n=1360matches in 75.7622 ms
+Detection and descriptor extraction time 124.603 ms
+(KNN) with n=1360matches in 77.2438 ms
 # keypoints removed = 613
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1363 keypoints in 119.715 ms
+detection with n=1363 keypoints in 127.465 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.2468 ms
+BRISK descriptor extraction in 11.0698 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 130.961 ms
-(KNN) with n=1347matches in 72.5033 ms
+Detection and descriptor extraction time 138.535 ms
+(KNN) with n=1347matches in 79.7947 ms
 # keypoints removed = 580
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 95.7046 ms
+detection with n=1331 keypoints in 112.81 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.8395 ms
+BRISK descriptor extraction in 10.8641 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 106.544 ms
-(KNN) with n=1363matches in 75.5101 ms
+Detection and descriptor extraction time 123.674 ms
+(KNN) with n=1363matches in 81.0373 ms
 # keypoints removed = 601
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1357 keypoints in 86.9695 ms
+detection with n=1357 keypoints in 87.6345 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.0479 ms
+BRISK descriptor extraction in 11.0274 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 98.0175 ms
-(KNN) with n=1331matches in 76.9992 ms
+Detection and descriptor extraction time 98.662 ms
+(KNN) with n=1331matches in 75.3149 ms
 # keypoints removed = 537
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 118.192 ms
+detection with n=1331 keypoints in 92.0439 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.0672 ms
+BRISK descriptor extraction in 10.7779 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 129.259 ms
-(KNN) with n=1357matches in 72.3291 ms
+Detection and descriptor extraction time 102.822 ms
+(KNN) with n=1357matches in 80.6224 ms
 # keypoints removed = 593
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector AKAZE *********** Descriptor BRIEF ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 107.554 ms
+detection with n=1351 keypoints in 111.328 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.57122 ms
+BRIEF descriptor extraction in 4.33089 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 112.125 ms
+Detection and descriptor extraction time 115.659 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1327 keypoints in 102.236 ms
+detection with n=1327 keypoints in 105.58 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.47157 ms
+BRIEF descriptor extraction in 4.0249 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 106.707 ms
-(KNN) with n=1351matches in 41.8069 ms
+Detection and descriptor extraction time 109.605 ms
+(KNN) with n=1351matches in 37.6058 ms
 # keypoints removed = 606
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1311 keypoints in 86.7559 ms
+detection with n=1311 keypoints in 113.785 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.36388 ms
+BRIEF descriptor extraction in 3.99078 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 91.1198 ms
-(KNN) with n=1327matches in 42.0098 ms
+Detection and descriptor extraction time 117.775 ms
+(KNN) with n=1327matches in 41.2219 ms
 # keypoints removed = 519
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 87.432 ms
+detection with n=1351 keypoints in 89.4294 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.51617 ms
+BRIEF descriptor extraction in 4.12048 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 91.9481 ms
-(KNN) with n=1311matches in 41.5504 ms
+Detection and descriptor extraction time 93.5499 ms
+(KNN) with n=1311matches in 43.3527 ms
 # keypoints removed = 568
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1360 keypoints in 90.9938 ms
+detection with n=1360 keypoints in 86.4234 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.51291 ms
+BRIEF descriptor extraction in 4.24457 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 95.5067 ms
-(KNN) with n=1351matches in 44.9539 ms
+Detection and descriptor extraction time 90.6679 ms
+(KNN) with n=1351matches in 43.4257 ms
 # keypoints removed = 610
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1347 keypoints in 108.471 ms
+detection with n=1347 keypoints in 86.8384 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.44517 ms
+BRIEF descriptor extraction in 4.10927 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 112.916 ms
-(KNN) with n=1360matches in 35.3512 ms
+Detection and descriptor extraction time 90.9477 ms
+(KNN) with n=1360matches in 43.9804 ms
 # keypoints removed = 608
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1363 keypoints in 87.5535 ms
+detection with n=1363 keypoints in 122.26 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.57974 ms
+BRIEF descriptor extraction in 5.07519 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 92.1332 ms
-(KNN) with n=1347matches in 44.4034 ms
+Detection and descriptor extraction time 127.335 ms
+(KNN) with n=1347matches in 44.8297 ms
 # keypoints removed = 582
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 98.523 ms
+detection with n=1331 keypoints in 111.375 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 16.6529 ms
+BRIEF descriptor extraction in 4.2971 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 115.176 ms
-(KNN) with n=1363matches in 29.1828 ms
+Detection and descriptor extraction time 115.672 ms
+(KNN) with n=1363matches in 37.7951 ms
 # keypoints removed = 593
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1357 keypoints in 108.835 ms
+detection with n=1357 keypoints in 122.823 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.62603 ms
+BRIEF descriptor extraction in 15.431 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 113.461 ms
-(KNN) with n=1331matches in 43.281 ms
+Detection and descriptor extraction time 138.254 ms
+(KNN) with n=1331matches in 60.4413 ms
 # keypoints removed = 547
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 114.176 ms
+detection with n=1331 keypoints in 144.194 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 5.72386 ms
+BRIEF descriptor extraction in 10.875 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 119.899 ms
-(KNN) with n=1357matches in 11.4907 ms
+Detection and descriptor extraction time 155.069 ms
+(KNN) with n=1357matches in 49.9964 ms
 # keypoints removed = 603
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector AKAZE *********** Descriptor ORB ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 89.1255 ms
+detection with n=1351 keypoints in 153.48 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 15.1728 ms
+ORB descriptor extraction in 13.6046 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 104.298 ms
+Detection and descriptor extraction time 167.084 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1327 keypoints in 103.846 ms
+detection with n=1327 keypoints in 147.137 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 4.07535 ms
+ORB descriptor extraction in 14.3507 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 107.922 ms
-(KNN) with n=1348matches in 35.4646 ms
+Detection and descriptor extraction time 161.487 ms
+(KNN) with n=1348matches in 51.345 ms
 # keypoints removed = 799
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1311 keypoints in 105.213 ms
+detection with n=1311 keypoints in 149.46 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 4.11831 ms
+ORB descriptor extraction in 16.347 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 109.331 ms
-(KNN) with n=1325matches in 41.1208 ms
+Detection and descriptor extraction time 165.807 ms
+(KNN) with n=1325matches in 49.2062 ms
 # keypoints removed = 769
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 86.3063 ms
+detection with n=1351 keypoints in 150.441 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 4.08836 ms
+ORB descriptor extraction in 4.46668 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 90.3946 ms
-(KNN) with n=1309matches in 42.4335 ms
+Detection and descriptor extraction time 154.907 ms
+(KNN) with n=1309matches in 51.0842 ms
 # keypoints removed = 777
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1360 keypoints in 101.614 ms
+detection with n=1360 keypoints in 115.012 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 15.8888 ms
+ORB descriptor extraction in 14.4399 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 117.503 ms
-(KNN) with n=1348matches in 35.5858 ms
+Detection and descriptor extraction time 129.452 ms
+(KNN) with n=1348matches in 46.1756 ms
 # keypoints removed = 817
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1347 keypoints in 96.4396 ms
+detection with n=1347 keypoints in 99.6111 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 4.13645 ms
+ORB descriptor extraction in 17.3849 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 100.576 ms
-(KNN) with n=1355matches in 37.704 ms
+Detection and descriptor extraction time 116.996 ms
+(KNN) with n=1355matches in 42.925 ms
 # keypoints removed = 824
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1363 keypoints in 119.412 ms
+detection with n=1363 keypoints in 171.435 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 4.9553 ms
+ORB descriptor extraction in 14.7286 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 124.367 ms
-(KNN) with n=1343matches in 35.2592 ms
+Detection and descriptor extraction time 186.163 ms
+(KNN) with n=1343matches in 57.5589 ms
 # keypoints removed = 750
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 86.0565 ms
+detection with n=1331 keypoints in 103.454 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 15.1838 ms
+ORB descriptor extraction in 4.03894 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 101.24 ms
-(KNN) with n=1358matches in 33.5444 ms
+Detection and descriptor extraction time 107.493 ms
+(KNN) with n=1358matches in 43.0599 ms
 # keypoints removed = 820
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1357 keypoints in 82.9048 ms
+detection with n=1357 keypoints in 91.2062 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 4.47113 ms
+ORB descriptor extraction in 14.0675 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 87.3759 ms
-(KNN) with n=1331matches in 43.7081 ms
+Detection and descriptor extraction time 105.274 ms
+(KNN) with n=1331matches in 42.378 ms
 # keypoints removed = 756
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 88.2687 ms
+detection with n=1331 keypoints in 112.186 ms
 #2 : DETECT KEYPOINTS done
-ORB descriptor extraction in 15.3851 ms
+ORB descriptor extraction in 5.29748 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 103.654 ms
-(KNN) with n=1353matches in 30.4639 ms
+Detection and descriptor extraction time 117.483 ms
+(KNN) with n=1353matches in 43.612 ms
 # keypoints removed = 822
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector AKAZE *********** Descriptor FREAK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 106.915 ms
+detection with n=1351 keypoints in 125.379 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 63.3066 ms
+FREAK descriptor extraction in 100.646 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 170.222 ms
+Detection and descriptor extraction time 226.025 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1327 keypoints in 113.173 ms
+detection with n=1327 keypoints in 108.462 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 43.3108 ms
+FREAK descriptor extraction in 43.2496 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 156.484 ms
-(KNN) with n=1351matches in 74.078 ms
+Detection and descriptor extraction time 151.711 ms
+(KNN) with n=1351matches in 81.0539 ms
 # keypoints removed = 806
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1311 keypoints in 88.3771 ms
+detection with n=1311 keypoints in 115.087 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 43.3458 ms
+FREAK descriptor extraction in 44.809 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 131.723 ms
-(KNN) with n=1327matches in 70.4725 ms
+Detection and descriptor extraction time 159.896 ms
+(KNN) with n=1327matches in 77.4141 ms
 # keypoints removed = 750
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 88.1999 ms
+detection with n=1351 keypoints in 90.4072 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 44.0446 ms
+FREAK descriptor extraction in 45.2938 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 132.245 ms
-(KNN) with n=1311matches in 67.593 ms
+Detection and descriptor extraction time 135.701 ms
+(KNN) with n=1311matches in 77.2608 ms
 # keypoints removed = 748
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1360 keypoints in 98.8507 ms
+detection with n=1360 keypoints in 111.791 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 44.1071 ms
+FREAK descriptor extraction in 46.2072 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 142.958 ms
-(KNN) with n=1351matches in 74.4517 ms
+Detection and descriptor extraction time 157.998 ms
+(KNN) with n=1351matches in 77.4405 ms
 # keypoints removed = 791
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1347 keypoints in 85.1449 ms
+detection with n=1347 keypoints in 121.43 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 44.2803 ms
+FREAK descriptor extraction in 81.639 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 129.425 ms
-(KNN) with n=1360matches in 77.8185 ms
+Detection and descriptor extraction time 203.069 ms
+(KNN) with n=1360matches in 71.4007 ms
 # keypoints removed = 778
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1363 keypoints in 85.8933 ms
+detection with n=1363 keypoints in 121.748 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 44.1949 ms
+FREAK descriptor extraction in 43.94 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 130.088 ms
-(KNN) with n=1347matches in 76.6701 ms
+Detection and descriptor extraction time 165.688 ms
+(KNN) with n=1347matches in 79.2805 ms
 # keypoints removed = 768
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 92.2468 ms
+detection with n=1331 keypoints in 96.2691 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 43.6681 ms
+FREAK descriptor extraction in 45.1603 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 135.915 ms
-(KNN) with n=1363matches in 76.2542 ms
+Detection and descriptor extraction time 141.429 ms
+(KNN) with n=1363matches in 85.1444 ms
 # keypoints removed = 769
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1357 keypoints in 84.4401 ms
+detection with n=1357 keypoints in 96.6026 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 43.1037 ms
+FREAK descriptor extraction in 44.3401 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 127.544 ms
-(KNN) with n=1331matches in 73.1551 ms
+Detection and descriptor extraction time 140.943 ms
+(KNN) with n=1331matches in 75.9278 ms
 # keypoints removed = 748
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 85.2722 ms
+detection with n=1331 keypoints in 108.057 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 43.8405 ms
+FREAK descriptor extraction in 44.9557 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 129.113 ms
-(KNN) with n=1357matches in 75.6031 ms
+Detection and descriptor extraction time 153.013 ms
+(KNN) with n=1357matches in 75.4187 ms
 # keypoints removed = 754
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector AKAZE *********** Descriptor AKAZE ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 91.5592 ms
+detection with n=1351 keypoints in 110.226 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 99.8006 ms
+AKAZE descriptor extraction in 103.454 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 191.36 ms
+Detection and descriptor extraction time 213.681 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1327 keypoints in 101.042 ms
+detection with n=1327 keypoints in 102.34 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 95.6094 ms
+AKAZE descriptor extraction in 95.9746 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 196.651 ms
-(KNN) with n=1351matches in 66.2378 ms
+Detection and descriptor extraction time 198.314 ms
+(KNN) with n=1351matches in 77.2013 ms
 # keypoints removed = 463
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1311 keypoints in 103.747 ms
+detection with n=1311 keypoints in 113.902 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 95.8621 ms
+AKAZE descriptor extraction in 107.213 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 199.609 ms
-(KNN) with n=1327matches in 66.0163 ms
+Detection and descriptor extraction time 221.115 ms
+(KNN) with n=1327matches in 72.884 ms
 # keypoints removed = 435
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 98.1294 ms
+detection with n=1351 keypoints in 106.271 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 93.4295 ms
+AKAZE descriptor extraction in 128.432 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 191.559 ms
-(KNN) with n=1311matches in 66.0416 ms
+Detection and descriptor extraction time 234.703 ms
+(KNN) with n=1311matches in 79.6057 ms
 # keypoints removed = 413
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1360 keypoints in 113.288 ms
+detection with n=1360 keypoints in 119.691 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 105.21 ms
+AKAZE descriptor extraction in 110.18 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 218.498 ms
-(KNN) with n=1351matches in 68.1986 ms
+Detection and descriptor extraction time 229.871 ms
+(KNN) with n=1351matches in 72.6946 ms
 # keypoints removed = 463
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1347 keypoints in 129.452 ms
+detection with n=1347 keypoints in 87.0027 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 99.8651 ms
+AKAZE descriptor extraction in 102.564 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 229.317 ms
-(KNN) with n=1360matches in 67.0495 ms
+Detection and descriptor extraction time 189.567 ms
+(KNN) with n=1360matches in 81.4405 ms
 # keypoints removed = 447
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1363 keypoints in 88.1871 ms
+detection with n=1363 keypoints in 108.326 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 101.537 ms
+AKAZE descriptor extraction in 95.1096 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 189.724 ms
-(KNN) with n=1347matches in 62.2717 ms
+Detection and descriptor extraction time 203.435 ms
+(KNN) with n=1347matches in 78.6774 ms
 # keypoints removed = 427
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 109.936 ms
+detection with n=1331 keypoints in 112.233 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 104.298 ms
+AKAZE descriptor extraction in 100.253 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 214.233 ms
-(KNN) with n=1363matches in 61.131 ms
+Detection and descriptor extraction time 212.486 ms
+(KNN) with n=1363matches in 76.7773 ms
 # keypoints removed = 485
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1357 keypoints in 105.296 ms
+detection with n=1357 keypoints in 109.948 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 108.645 ms
+AKAZE descriptor extraction in 106.702 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 213.94 ms
-(KNN) with n=1331matches in 61.5875 ms
+Detection and descriptor extraction time 216.65 ms
+(KNN) with n=1331matches in 72.5075 ms
 # keypoints removed = 418
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 84.5926 ms
+detection with n=1331 keypoints in 91.4756 ms
 #2 : DETECT KEYPOINTS done
-AKAZE descriptor extraction in 99.8138 ms
+AKAZE descriptor extraction in 101.057 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 184.406 ms
-(KNN) with n=1357matches in 67.7351 ms
+Detection and descriptor extraction time 192.533 ms
+(KNN) with n=1357matches in 73.8203 ms
 # keypoints removed = 469
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector AKAZE *********** Descriptor SIFT ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 88.7037 ms
+detection with n=1351 keypoints in 107.171 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 68.7929 ms
+SIFT descriptor extraction in 83.0656 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 157.497 ms
+Detection and descriptor extraction time 190.236 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1327 keypoints in 82.705 ms
+detection with n=1327 keypoints in 89.6814 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 66.8 ms
+SIFT descriptor extraction in 71.8983 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 149.505 ms
-(KNN) with n=1351matches in 58.2473 ms
+Detection and descriptor extraction time 161.58 ms
+(KNN) with n=1351matches in 58.4314 ms
 # keypoints removed = 318
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1311 keypoints in 104.217 ms
+detection with n=1311 keypoints in 128.899 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 71.368 ms
+SIFT descriptor extraction in 69.8407 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 175.585 ms
-(KNN) with n=1327matches in 54.6709 ms
+Detection and descriptor extraction time 198.74 ms
+(KNN) with n=1327matches in 55.1557 ms
 # keypoints removed = 276
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1351 keypoints in 104.979 ms
+detection with n=1351 keypoints in 113.114 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 68.4805 ms
+SIFT descriptor extraction in 80.0062 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 173.46 ms
-(KNN) with n=1311matches in 52.9844 ms
+Detection and descriptor extraction time 193.12 ms
+(KNN) with n=1311matches in 57.1811 ms
 # keypoints removed = 286
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1360 keypoints in 99.1746 ms
+detection with n=1360 keypoints in 104.676 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 76.7624 ms
+SIFT descriptor extraction in 81.5484 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 175.937 ms
-(KNN) with n=1351matches in 50.3549 ms
+Detection and descriptor extraction time 186.225 ms
+(KNN) with n=1351matches in 62.7679 ms
 # keypoints removed = 294
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1347 keypoints in 89.2153 ms
+detection with n=1347 keypoints in 99.7357 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 67.3785 ms
+SIFT descriptor extraction in 100.642 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 156.594 ms
-(KNN) with n=1360matches in 55.8681 ms
+Detection and descriptor extraction time 200.377 ms
+(KNN) with n=1360matches in 59.6943 ms
 # keypoints removed = 305
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1363 keypoints in 108.143 ms
+detection with n=1363 keypoints in 76.2264 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 68.2472 ms
+SIFT descriptor extraction in 81.5905 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 176.39 ms
-(KNN) with n=1347matches in 57.662 ms
+Detection and descriptor extraction time 157.817 ms
+(KNN) with n=1347matches in 60.8624 ms
 # keypoints removed = 280
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 99.9687 ms
+detection with n=1331 keypoints in 129.225 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 64.6928 ms
+SIFT descriptor extraction in 78.6577 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 164.662 ms
-(KNN) with n=1363matches in 54.3689 ms
+Detection and descriptor extraction time 207.883 ms
+(KNN) with n=1363matches in 56.0699 ms
 # keypoints removed = 306
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1357 keypoints in 98.4484 ms
+detection with n=1357 keypoints in 107.946 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 64.7946 ms
+SIFT descriptor extraction in 87.0767 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 163.243 ms
-(KNN) with n=1331matches in 52.1137 ms
+Detection and descriptor extraction time 195.023 ms
+(KNN) with n=1331matches in 62.2803 ms
 # keypoints removed = 273
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1331 keypoints in 111.562 ms
+detection with n=1331 keypoints in 112.579 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 59.4755 ms
+SIFT descriptor extraction in 79.3132 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 171.038 ms
-(KNN) with n=1357matches in 51.6052 ms
+Detection and descriptor extraction time 191.892 ms
+(KNN) with n=1357matches in 60.0333 ms
 # keypoints removed = 311
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector SIFT *********** Descriptor BRISK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1437 keypoints in 107.942 ms
+detection with n=1437 keypoints in 154.494 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 21.0959 ms
+BRISK descriptor extraction in 11.7597 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 129.038 ms
+Detection and descriptor extraction time 166.253 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1371 keypoints in 101.056 ms
+detection with n=1371 keypoints in 127.565 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.9097 ms
+BRISK descriptor extraction in 13.4229 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 111.965 ms
-(KNN) with n=1380matches in 74.9361 ms
+Detection and descriptor extraction time 140.988 ms
+(KNN) with n=1380matches in 75.5482 ms
 # keypoints removed = 898
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1381 keypoints in 108.536 ms
+detection with n=1381 keypoints in 143.501 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.1823 ms
+BRISK descriptor extraction in 11.4758 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 119.718 ms
-(KNN) with n=1312matches in 72.3407 ms
+Detection and descriptor extraction time 154.977 ms
+(KNN) with n=1312matches in 79.1375 ms
 # keypoints removed = 842
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1336 keypoints in 130.589 ms
+detection with n=1336 keypoints in 127.39 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.8326 ms
+BRISK descriptor extraction in 10.6306 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 141.422 ms
-(KNN) with n=1335matches in 71.6856 ms
+Detection and descriptor extraction time 138.02 ms
+(KNN) with n=1335matches in 73.2555 ms
 # keypoints removed = 856
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1303 keypoints in 105.616 ms
+detection with n=1303 keypoints in 125.009 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.6499 ms
+BRISK descriptor extraction in 10.2959 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 116.266 ms
-(KNN) with n=1289matches in 65.9201 ms
+Detection and descriptor extraction time 135.305 ms
+(KNN) with n=1289matches in 77.2161 ms
 # keypoints removed = 835
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1370 keypoints in 113.737 ms
+detection with n=1370 keypoints in 132.657 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.9265 ms
+BRISK descriptor extraction in 10.7966 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 124.664 ms
-(KNN) with n=1246matches in 68.1541 ms
+Detection and descriptor extraction time 143.453 ms
+(KNN) with n=1246matches in 74.0974 ms
 # keypoints removed = 778
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1396 keypoints in 107.268 ms
+detection with n=1396 keypoints in 130.107 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.9993 ms
+BRISK descriptor extraction in 11.1367 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 118.267 ms
-(KNN) with n=1302matches in 73.755 ms
+Detection and descriptor extraction time 141.244 ms
+(KNN) with n=1302matches in 75.0333 ms
 # keypoints removed = 828
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1382 keypoints in 124.171 ms
+detection with n=1382 keypoints in 134.355 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 10.958 ms
+BRISK descriptor extraction in 10.8465 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 135.129 ms
-(KNN) with n=1312matches in 70.6771 ms
+Detection and descriptor extraction time 145.201 ms
+(KNN) with n=1312matches in 76.4088 ms
 # keypoints removed = 844
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1462 keypoints in 112.671 ms
+detection with n=1462 keypoints in 153.778 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.6052 ms
+BRISK descriptor extraction in 11.8533 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 124.276 ms
-(KNN) with n=1315matches in 77.6545 ms
+Detection and descriptor extraction time 165.632 ms
+(KNN) with n=1315matches in 84.7982 ms
 # keypoints removed = 840
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1422 keypoints in 108.165 ms
+detection with n=1422 keypoints in 154.452 ms
 #2 : DETECT KEYPOINTS done
-BRISK descriptor extraction in 11.2416 ms
+BRISK descriptor extraction in 11.4771 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 119.406 ms
-(KNN) with n=1398matches in 77.1521 ms
+Detection and descriptor extraction time 165.929 ms
+(KNN) with n=1398matches in 88.4714 ms
 # keypoints removed = 923
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector SIFT *********** Descriptor BRIEF ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1437 keypoints in 125.231 ms
+detection with n=1437 keypoints in 129.828 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 9.48707 ms
+BRIEF descriptor extraction in 15.7798 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 134.718 ms
+Detection and descriptor extraction time 145.608 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1371 keypoints in 129.296 ms
+detection with n=1371 keypoints in 154.483 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 15.976 ms
+BRIEF descriptor extraction in 13.218 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 145.272 ms
-(KNN) with n=1317matches in 31.1345 ms
+Detection and descriptor extraction time 167.701 ms
+(KNN) with n=1317matches in 46.7509 ms
 # keypoints removed = 803
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1381 keypoints in 128.818 ms
+detection with n=1381 keypoints in 139.101 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.25332 ms
+BRIEF descriptor extraction in 15.4598 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 133.071 ms
-(KNN) with n=1258matches in 38.1008 ms
+Detection and descriptor extraction time 154.561 ms
+(KNN) with n=1258matches in 32.0219 ms
 # keypoints removed = 787
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1336 keypoints in 108.148 ms
+detection with n=1336 keypoints in 152.796 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 15.0302 ms
+BRIEF descriptor extraction in 11.754 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 123.178 ms
-(KNN) with n=1274matches in 29.0447 ms
+Detection and descriptor extraction time 164.55 ms
+(KNN) with n=1274matches in 44.2163 ms
 # keypoints removed = 775
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1303 keypoints in 119.965 ms
+detection with n=1303 keypoints in 148.291 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 14.8978 ms
+BRIEF descriptor extraction in 12.4867 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 134.863 ms
-(KNN) with n=1225matches in 25.9028 ms
+Detection and descriptor extraction time 160.777 ms
+(KNN) with n=1225matches in 39.5137 ms
 # keypoints removed = 740
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1370 keypoints in 128.967 ms
+detection with n=1370 keypoints in 137.902 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 15.4898 ms
+BRIEF descriptor extraction in 10.7648 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 144.457 ms
-(KNN) with n=1195matches in 23.5695 ms
+Detection and descriptor extraction time 148.666 ms
+(KNN) with n=1195matches in 35.9071 ms
 # keypoints removed = 709
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1396 keypoints in 130.031 ms
+detection with n=1396 keypoints in 123.026 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 12.4102 ms
+BRIEF descriptor extraction in 16.4789 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 142.441 ms
-(KNN) with n=1253matches in 37.1089 ms
+Detection and descriptor extraction time 139.505 ms
+(KNN) with n=1253matches in 29.6661 ms
 # keypoints removed = 768
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1382 keypoints in 117.182 ms
+detection with n=1382 keypoints in 137.449 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 9.47971 ms
+BRIEF descriptor extraction in 13.3235 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 126.662 ms
-(KNN) with n=1252matches in 34.7391 ms
+Detection and descriptor extraction time 150.772 ms
+(KNN) with n=1252matches in 31.0147 ms
 # keypoints removed = 750
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1462 keypoints in 127.248 ms
+detection with n=1462 keypoints in 138.358 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 4.45747 ms
+BRIEF descriptor extraction in 13.5399 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 131.705 ms
-(KNN) with n=1247matches in 31.7247 ms
+Detection and descriptor extraction time 151.898 ms
+(KNN) with n=1247matches in 37.1016 ms
 # keypoints removed = 787
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1422 keypoints in 124.926 ms
+detection with n=1422 keypoints in 134.074 ms
 #2 : DETECT KEYPOINTS done
-BRIEF descriptor extraction in 15.46 ms
+BRIEF descriptor extraction in 8.63736 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 140.386 ms
-(KNN) with n=1321matches in 26.5429 ms
+Detection and descriptor extraction time 142.711 ms
+(KNN) with n=1321matches in 43.0193 ms
 # keypoints removed = 798
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector SIFT *********** Descriptor FREAK ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1437 keypoints in 106.81 ms
+detection with n=1437 keypoints in 130.919 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 64.9097 ms
+FREAK descriptor extraction in 43.5306 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 171.72 ms
+Detection and descriptor extraction time 174.449 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1371 keypoints in 122.713 ms
+detection with n=1371 keypoints in 146.22 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 81.8653 ms
+FREAK descriptor extraction in 57.3684 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 204.578 ms
-(KNN) with n=1309matches in 62.1584 ms
+Detection and descriptor extraction time 203.588 ms
+(KNN) with n=1309matches in 75.9279 ms
 # keypoints removed = 916
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1381 keypoints in 119.713 ms
+detection with n=1381 keypoints in 128.986 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 52.9549 ms
+FREAK descriptor extraction in 51.2326 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 172.668 ms
-(KNN) with n=1256matches in 64.6527 ms
+Detection and descriptor extraction time 180.219 ms
+(KNN) with n=1256matches in 72.2255 ms
 # keypoints removed = 895
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1336 keypoints in 108.471 ms
+detection with n=1336 keypoints in 134.799 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 42.2678 ms
+FREAK descriptor extraction in 76.5257 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 150.738 ms
-(KNN) with n=1271matches in 60.1677 ms
+Detection and descriptor extraction time 211.325 ms
+(KNN) with n=1271matches in 64.7446 ms
 # keypoints removed = 922
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1303 keypoints in 108.703 ms
+detection with n=1303 keypoints in 147.298 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 41.6701 ms
+FREAK descriptor extraction in 54.4296 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 150.373 ms
-(KNN) with n=1223matches in 57.2349 ms
+Detection and descriptor extraction time 201.727 ms
+(KNN) with n=1223matches in 65.4597 ms
 # keypoints removed = 867
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1370 keypoints in 107.077 ms
+detection with n=1370 keypoints in 136.647 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 60.1189 ms
+FREAK descriptor extraction in 64.209 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 167.196 ms
-(KNN) with n=1187matches in 62.1206 ms
+Detection and descriptor extraction time 200.856 ms
+(KNN) with n=1187matches in 64.7776 ms
 # keypoints removed = 814
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1396 keypoints in 113.407 ms
+detection with n=1396 keypoints in 127.622 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 60.0185 ms
+FREAK descriptor extraction in 51.9871 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 173.425 ms
-(KNN) with n=1247matches in 62.2392 ms
+Detection and descriptor extraction time 179.609 ms
+(KNN) with n=1247matches in 72.4588 ms
 # keypoints removed = 902
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1382 keypoints in 116.677 ms
+detection with n=1382 keypoints in 133.448 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 56.1976 ms
+FREAK descriptor extraction in 48.3655 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 172.875 ms
-(KNN) with n=1252matches in 58.3688 ms
+Detection and descriptor extraction time 181.814 ms
+(KNN) with n=1252matches in 73.3842 ms
 # keypoints removed = 887
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1462 keypoints in 116.627 ms
+detection with n=1462 keypoints in 138.143 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 57.4252 ms
+FREAK descriptor extraction in 65.6123 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 174.052 ms
-(KNN) with n=1242matches in 66.1817 ms
+Detection and descriptor extraction time 203.755 ms
+(KNN) with n=1242matches in 68.0939 ms
 # keypoints removed = 918
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1422 keypoints in 115.67 ms
+detection with n=1422 keypoints in 135.2 ms
 #2 : DETECT KEYPOINTS done
-FREAK descriptor extraction in 68.393 ms
+FREAK descriptor extraction in 76.7144 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 184.063 ms
-(KNN) with n=1319matches in 62.9795 ms
+Detection and descriptor extraction time 211.915 ms
+(KNN) with n=1319matches in 67.2744 ms
 # keypoints removed = 961
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /************   Detector SIFT *********** Descriptor SIFT ************/
 /----------- Frame 1------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1437 keypoints in 115.812 ms
+detection with n=1437 keypoints in 130.271 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 102.739 ms
+SIFT descriptor extraction in 127.871 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 218.552 ms
+Detection and descriptor extraction time 258.142 ms
 /----------- Frame 2------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1371 keypoints in 110.329 ms
+detection with n=1371 keypoints in 135.888 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 105.072 ms
+SIFT descriptor extraction in 97.2186 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 215.401 ms
-(KNN) with n=1437matches in 57.1537 ms
+Detection and descriptor extraction time 233.107 ms
+(KNN) with n=1437matches in 65.2462 ms
 # keypoints removed = 635
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 3------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1381 keypoints in 88.5016 ms
+detection with n=1381 keypoints in 117.465 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 104.809 ms
+SIFT descriptor extraction in 143.297 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 193.311 ms
-(KNN) with n=1371matches in 57.2811 ms
+Detection and descriptor extraction time 260.762 ms
+(KNN) with n=1371matches in 59.2581 ms
 # keypoints removed = 590
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 4------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1336 keypoints in 107.743 ms
+detection with n=1336 keypoints in 131.454 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 102.682 ms
+SIFT descriptor extraction in 139.779 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 210.425 ms
-(KNN) with n=1381matches in 54.4878 ms
+Detection and descriptor extraction time 271.232 ms
+(KNN) with n=1381matches in 58.4041 ms
 # keypoints removed = 621
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 5------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1303 keypoints in 107.665 ms
+detection with n=1303 keypoints in 129.028 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 103.102 ms
+SIFT descriptor extraction in 113.257 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 210.767 ms
-(KNN) with n=1336matches in 53.4828 ms
+Detection and descriptor extraction time 242.285 ms
+(KNN) with n=1336matches in 48.7341 ms
 # keypoints removed = 580
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 6------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1370 keypoints in 110.089 ms
+detection with n=1370 keypoints in 100.534 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 102.632 ms
+SIFT descriptor extraction in 112.807 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 212.721 ms
-(KNN) with n=1303matches in 54.2157 ms
+Detection and descriptor extraction time 213.341 ms
+(KNN) with n=1303matches in 49.2949 ms
 # keypoints removed = 548
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 7------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1396 keypoints in 99.738 ms
+detection with n=1396 keypoints in 122.897 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 101.799 ms
+SIFT descriptor extraction in 168.239 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 201.537 ms
-(KNN) with n=1370matches in 56.1479 ms
+Detection and descriptor extraction time 291.136 ms
+(KNN) with n=1370matches in 72.428 ms
 # keypoints removed = 632
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 8------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1382 keypoints in 113.821 ms
+detection with n=1382 keypoints in 176.932 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 105.503 ms
+SIFT descriptor extraction in 124.497 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 219.324 ms
-(KNN) with n=1396matches in 56.6316 ms
+Detection and descriptor extraction time 301.429 ms
+(KNN) with n=1396matches in 60.7374 ms
 # keypoints removed = 653
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 9------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1462 keypoints in 113.445 ms
+detection with n=1462 keypoints in 98.3949 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 104.908 ms
+SIFT descriptor extraction in 142.841 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 218.353 ms
-(KNN) with n=1382matches in 61.9615 ms
+Detection and descriptor extraction time 241.236 ms
+(KNN) with n=1382matches in 61.1213 ms
 # keypoints removed = 568
 #4 : MATCH KEYPOINT DESCRIPTORS done
 /----------- Frame 10------------/
 #1 : LOAD IMAGE INTO BUFFER done
-detection with n=1422 keypoints in 92.9516 ms
+detection with n=1422 keypoints in 116.402 ms
 #2 : DETECT KEYPOINTS done
-SIFT descriptor extraction in 103.942 ms
+SIFT descriptor extraction in 118.346 ms
 #3 : EXTRACT DESCRIPTORS done
-Detection and descriptor extraction time 196.894 ms
-(KNN) with n=1462matches in 60.515 ms
+Detection and descriptor extraction time 234.748 ms
+(KNN) with n=1462matches in 71.688 ms
 # keypoints removed = 647
 #4 : MATCH KEYPOINT DESCRIPTORS done

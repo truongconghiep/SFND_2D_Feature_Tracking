@@ -18,7 +18,15 @@
 
 using namespace std;
 
-double FeatureTracking(string detectorType, string descriptorType, string matcherType, string desType, string selectorType, bool VisualizeEnable)
+double FeatureTracking(string detectorType, 
+                       string descriptorType, 
+                       string matcherType, 
+                       string desType, 
+                       string selectorType, 
+                       bool VisualizeEnable,
+                       double * ProcessTime,
+                       int * DetectedKeypoint,
+                       int * MatchedKeypoint)
 {
 /* INIT VARIABLES AND DATA STRUCTURES */
 
@@ -87,6 +95,8 @@ double FeatureTracking(string detectorType, string descriptorType, string matche
         //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
 
         t = detKeypointsModern(keypoints, imgGray, detectorType);
+        DetectedKeypoint[imgIndex] = keypoints.size();
+                       
         //// EOF STUDENT ASSIGNMENT
 
         //// STUDENT ASSIGNMENT
@@ -148,6 +158,8 @@ double FeatureTracking(string detectorType, string descriptorType, string matche
 
         cout << "Detection and descriptor extraction time "<< t << " ms" << endl;
 
+        ProcessTime[imgIndex] = t;
+
         if (dataBuffer.size() > 1) // wait until at least two images have been processed
         {
 
@@ -159,9 +171,9 @@ double FeatureTracking(string detectorType, string descriptorType, string matche
             //// TASK MP.5 -> add FLANN matching in file matching2D.cpp
             //// TASK MP.6 -> add KNN match selection and perform descriptor distance ratio filtering with t=0.8 in file matching2D.cpp
 
-            matchDescriptors((dataBuffer.end() - 2)->keypoints, (dataBuffer.end() - 1)->keypoints,
-                             (dataBuffer.end() - 2)->descriptors, (dataBuffer.end() - 1)->descriptors,
-                             matches, descriptorType, matcherType, selectorType, desType);
+            MatchedKeypoint[imgIndex] = matchDescriptors((dataBuffer.end() - 2)->keypoints, (dataBuffer.end() - 1)->keypoints,
+                                                         (dataBuffer.end() - 2)->descriptors, (dataBuffer.end() - 1)->descriptors,
+                                                            matches, descriptorType, matcherType, selectorType, desType);
 
             //// EOF STUDENT ASSIGNMENT
 
@@ -189,7 +201,10 @@ double FeatureTracking(string detectorType, string descriptorType, string matche
             }
             bVis = false;
         }
-
+        else
+        {
+            MatchedKeypoint[imgIndex] = 0;
+        }
     } // eof loop over all images
 
     return t;
@@ -206,33 +221,86 @@ int main(int argc, const char *argv[])
 
     bool PerformanceEstimationEnable = true;
 
+    double Time[6][10];
+    int DetectedKeypoint[6][10];
+    int MatchedKeypoint[6][10];
+    int desIdx = 0;
+
+    ofstream TimeLog;
+    TimeLog.open("InfoLog.txt");
+
     if (!PerformanceEstimationEnable)
     {
-        FeatureTracking(detectorTypes[0], descriptorTypes[0], matcherType, descriptorType, selectorType, true);
+        FeatureTracking(detectorTypes[0], descriptorTypes[0], matcherType, descriptorType, selectorType, true,  &Time[0][0], &DetectedKeypoint[0][0], &MatchedKeypoint[0][0]);
         return 0;
     }
 
     for (std::string det : detectorTypes)
     {
+        desIdx = 0;
+        memset(&Time, 0, sizeof(Time));
+        memset(&DetectedKeypoint, 0, sizeof(DetectedKeypoint));
+        memset(&MatchedKeypoint, 0, sizeof(MatchedKeypoint));
+
         for (std::string des : descriptorTypes)
         {
             if ((det.compare("AKAZE") == 0) && (des.compare("AKAZE") == 0))
             {
-                FeatureTracking(det, des, matcherType, descriptorType, selectorType, false);
+                FeatureTracking(det, des, matcherType, descriptorType, selectorType, false, &Time[desIdx][0], &DetectedKeypoint[desIdx][0], &MatchedKeypoint[desIdx][0]);
             }
             else if ((det.compare("SIFT") == 0))
             {
                 if((des.compare("ORB") != 0) && (des.compare("AKAZE") != 0))
                 {
-                    FeatureTracking(det, des, matcherType, descriptorType, selectorType, false);
+                    FeatureTracking(det, des, matcherType, descriptorType, selectorType, false, &Time[desIdx][0], &DetectedKeypoint[desIdx][0], &MatchedKeypoint[desIdx][0]);
                 }
             }
             else if (des.compare("AKAZE") != 0)
             {
-                FeatureTracking(det, des, matcherType, descriptorType, selectorType, false);
+                FeatureTracking(det, des, matcherType, descriptorType, selectorType, false, &Time[desIdx][0], &DetectedKeypoint[desIdx][0], &MatchedKeypoint[desIdx][0]);
             }
+            desIdx++;
+        }
+
+        TimeLog << "/----------------------------------------Detector: " << det << "  -----------------------------------------/\n";
+        /* Output processing time */
+        TimeLog << "Processing time: \n";
+        for(int i = 0; i < 6; i++)
+        {
+            TimeLog << std::setw(10) << descriptorTypes[i] << "  ";
+            
+            for (int j = 0; j < 10; j++)
+            {
+                TimeLog << std::setw(10) << Time[i][j] << "  ";
+            }
+            TimeLog << "\n";
+        }
+        /* Output number of detected keypoints*/
+        TimeLog << "number of detected keypoints: \n";
+        for(int i = 0; i < 6; i++)
+        {
+            TimeLog << std::setw(10) << descriptorTypes[i] << "  ";
+            
+            for (int j = 0; j < 10; j++)
+            {
+                TimeLog << std::setw(10) << DetectedKeypoint[i][j] << "  ";
+            }
+            TimeLog << "\n";
+        }
+        /* Output number of detected keypoints*/
+        TimeLog << "number of matched keypoints: \n";
+        for(int i = 0; i < 6; i++)
+        {
+            TimeLog << std::setw(10) << descriptorTypes[i] << "  ";
+            
+            for (int j = 0; j < 10; j++)
+            {
+                TimeLog << std::setw(10) << MatchedKeypoint[i][j] << "  ";
+            }
+            TimeLog << "\n";
         }
     }
+    TimeLog.close();
  
     return 0;
 }

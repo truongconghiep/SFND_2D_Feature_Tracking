@@ -14,7 +14,7 @@ using cv::AKAZE;
 
 
 // Find best matches for keypoints in two camera images based on several matching methods
-void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, 
+int matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, 
                       cv::Mat &descSource, cv::Mat &descRef,
                       std::vector<cv::DMatch> &matches, std::string descriptorType, 
                       std::string matcherType, std::string selectorType,
@@ -46,16 +46,18 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
         cout << "FLANN matching";
     }
 
+    vector<vector<cv::DMatch>> knn_matches;
     // perform matching task
     if (selectorType.compare("SEL_NN") == 0)
     { // nearest neighbor (best match)
 
         matcher->match(descSource, descRef, matches); // Finds the best match for each descriptor in desc1
+        return matches.size();
     }
     else if (selectorType.compare("SEL_KNN") == 0)
     { // k nearest neighbors (k=2)
 
-        vector<vector<cv::DMatch>> knn_matches;
+        
         double t = (double)cv::getTickCount();
         matcher->knnMatch(descSource, descRef, knn_matches, 2); // finds the 2 best matches
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
@@ -72,7 +74,9 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
             }
         }
         cout << "# keypoints removed = " << knn_matches.size() - matches.size() << endl;
+        return matches.size();
     }
+    return 0;
 }
 
 // Use one of several types of state-of-art descriptors to uniquely identify keypoints
