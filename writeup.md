@@ -18,7 +18,6 @@ The purpose of keypoint removal is to limit the detected keypoints only on the p
 •	There are 2 types of keypoint descriptors: 
 -	HOG-based descriptor: SIFT, SURF
 -	Binary descriptor: BRIEF, BRISK, ORB, FREAK and KAZE
-
 [Implementation code](https://github.com/truongconghiep/SFND_2D_Feature_Tracking/blob/bfc5777227cdbdf56d30a30c00a31d162d60c63a/src/matching2D_Student.cpp#L79)
 
 ### 5. Descriptor matching
@@ -103,3 +102,8 @@ With this method, a threshold is not applied directly to distances. Instead, for
      FREAK	0	58	61	53	64	51	51	48	53	65
      AKAZE	0	0	0	0	0	0	0	0	0	0
       SIFT	0	81	79	84	93	90	82	82	100	101
+      
+### 9. Time performance evaluation
+
+![SHITOMASI detector](/images/Shitomasi detector.png)
+
