@@ -105,5 +105,5 @@ With this method, a threshold is not applied directly to distances. Instead, for
       
 ### 9. Time performance evaluation
 
-![SHITOMASI detector](/images/Shitomasi detector.png)
+![SHITOMASI detector](/images/evaluation/Shitomasi detector.png)
 
