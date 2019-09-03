@@ -103,7 +103,7 @@ double FeatureTracking(string detectorType,
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
 
         // only keep keypoints on the preceding vehicle
-        bool bFocusOnVehicle = false;
+        bool bFocusOnVehicle = true;
         cv::Rect vehicleRect(535, 180, 180, 150);
         //cv::rectangle(imgGray,vehicleRect, cv::Scalar(255,0,0));
        
@@ -227,7 +227,7 @@ int main(int argc, const char *argv[])
     int desIdx = 0;
 
     ofstream TimeLog;
-    TimeLog.open("InfoLog.txt");
+    TimeLog.open("InfoLog.csv");
 
     if (!PerformanceEstimationEnable)
     {
@@ -267,11 +267,11 @@ int main(int argc, const char *argv[])
         TimeLog << "Processing time: \n";
         for(int i = 0; i < 6; i++)
         {
-            TimeLog << std::setw(10) << descriptorTypes[i] << "  ";
+            TimeLog << std::setw(10) << descriptorTypes[i] << ",";
             
             for (int j = 0; j < 10; j++)
             {
-                TimeLog << std::setw(10) << Time[i][j] << "  ";
+                TimeLog << std::setw(10) << Time[i][j] << ",";
             }
             TimeLog << "\n";
         }
@@ -279,11 +279,11 @@ int main(int argc, const char *argv[])
         TimeLog << "number of detected keypoints: \n";
         for(int i = 0; i < 6; i++)
         {
-            TimeLog << std::setw(10) << descriptorTypes[i] << "  ";
+            TimeLog << std::setw(10) << descriptorTypes[i] << ",";
             
             for (int j = 0; j < 10; j++)
             {
-                TimeLog << std::setw(10) << DetectedKeypoint[i][j] << "  ";
+                TimeLog << std::setw(10) << DetectedKeypoint[i][j] << ",";
             }
             TimeLog << "\n";
         }
@@ -291,11 +291,11 @@ int main(int argc, const char *argv[])
         TimeLog << "number of matched keypoints: \n";
         for(int i = 0; i < 6; i++)
         {
-            TimeLog << std::setw(10) << descriptorTypes[i] << "  ";
+            TimeLog << std::setw(10) << descriptorTypes[i] << ",";
             
             for (int j = 0; j < 10; j++)
             {
-                TimeLog << std::setw(10) << MatchedKeypoint[i][j] << "  ";
+                TimeLog << std::setw(10) << MatchedKeypoint[i][j] << ",";
             }
             TimeLog << "\n";
         }
