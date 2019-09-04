@@ -1,10 +1,4 @@
----
 
-[//]: # (Image References)
-
-[image1]: ./images/evaluation/Shitomasi detector.png "Shitomasi detector"
-
----
 ### 1. Data buffer optimization
 
 To load images efficiently and prevent pushing the memory to its limits a ring buffer is implemented. This buffer is a FIFO (first in first out) buffer, which takes a new incoming image while drops the most old image out. The buffer size in this project is set to 2, that means the buffer can hold 2 images at the same time. [Implementation code](https://github.com/truongconghiep/SFND_2D_Feature_Tracking/blob/bfc5777227cdbdf56d30a30c00a31d162d60c63a/src/MidTermProject_Camera_Student.cpp#L65)
@@ -112,5 +106,12 @@ With this method, a threshold is not applied directly to distances. Instead, for
       
 ### 9. Time performance evaluation
 
+![Shitomasi_detector](/images/evaluation/Shitomasi_detector.png)
+![Harris_detector](/images/evaluation/Harris_detector.png)
+![Fast_detector](/images/evaluation/Fast_detector.png)
+![Brisk_detector](/images/evaluation/BRISK_detector.png)
+![Orb_detector](/images/evaluation/ORB_detector.png)
+![Akaze_detector](/images/evaluation/AKAZE_detector.png)
+![Sift_detector](/images/evaluation/SIFT_detector.png)
 
 
