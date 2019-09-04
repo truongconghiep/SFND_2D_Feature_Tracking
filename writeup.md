@@ -48,13 +48,13 @@ With this method, a threshold is not applied directly to distances. Instead, for
 
 #### Distribution of keypoints neighborhood size
 
-![SHITOMASI](/images/detectorDistribution/SHITOMASI.png)
-![HARRIS](/images/detectorDistribution/HARRIS.png)
-![FAST](/images/detectorDistribution/FAST.png)
-![BRISK](/images/detectorDistribution/BRISK.png)
-![ORB](/images/detectorDistribution/ORB.png)
-![AKAZE](/images/detectorDistribution/AKAZE.png)
-![SIFT](/images/detectorDistribution/SIFT.png)
+![SHITOMASI](/images/detectorDistribution/SHITOMASI.jpg)
+![HARRIS](/images/detectorDistribution/HARRIS.jpg)
+![FAST](/images/detectorDistribution/FAST.jpg)
+![BRISK](/images/detectorDistribution/BRISK.jpg)
+![ORB](/images/detectorDistribution/ORB.jpg)
+![AKAZE](/images/detectorDistribution/AKAZE.jpg)
+![SIFT](/images/detectorDistribution/SIFT.jpg)
 
 The images above shows us that ORB and HARRIS have less number of detected keypoints. SIFT, SHITOMASI and ORB have more keypoints and AKAZE, FAST and BRISK have even more keypoints. The keypoint neighborhood size tends to be bigger at the positions, where image content is more contrast, e.g. at the boundary of the preceding car.
 
