@@ -47,7 +47,7 @@ With this method, a threshold is not applied directly to distances. Instead, for
 |BRISK    | 1437|	1371|	1381|	1336|	1303|	1370|	1396|	1382|	1462|	1422|
 
 ### 8. Matched keypoints
-
+Number of detected keypoints in the region of interest (on preceding vehicle) are shown in tables belows
 #### SHITOMASI detector
      BRISK	0	85	80	73	77	74	70	79	81	73
      BRIEF	0	97	93	92	89	94	93	86	92	86
@@ -105,7 +105,7 @@ With this method, a threshold is not applied directly to distances. Instead, for
       SIFT	0	81	79	84	93	90	82	82	100	101
       
 ### 9. Time performance evaluation
-
+Time performance of possible combinations is shown in diagrams below
 ![Shitomasi_detector](/images/evaluation/Shitomasi_detector.png)
 ![Harris_detector](/images/evaluation/Harris_detector.png)
 ![Fast_detector](/images/evaluation/Fast_detector.png)
@@ -113,5 +113,18 @@ With this method, a threshold is not applied directly to distances. Instead, for
 ![Orb_detector](/images/evaluation/ORB_detector.png)
 ![Akaze_detector](/images/evaluation/AKAZE_detector.png)
 ![Sift_detector](/images/evaluation/SIFT_detector.png)
+
+From these experiences Top 5 combination with best performance are:
+
+| Detector + Descriptor| Number of matched keypoints | times|
+|----------------------|-----------------------------|-------|
+| **FAST + ORB**       | **218 - 251**               | **2.7 ms**|
+| **FAST + BRIEF**     | **226 - 263**               | **3.0 ms**|
+| **FAST + BRISK**     | **191 - 215**               | **5.0 ms**|
+| ORB + BRIEF          | 37 - 60                    | 5.78 ms|
+| ORB + BRISK          | 60 - 82                  | 5.0 ms|
+
+
+
 
 
