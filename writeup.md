@@ -1,3 +1,8 @@
+**SFND 2D FEADTURE TRACKING**
+
+Student: Truong Cong Hiep
+
+------------
 
 ### 1. Data buffer optimization
 
@@ -48,12 +53,19 @@ With this method, a threshold is not applied directly to distances. Instead, for
 
 #### Distribution of keypoints neighborhood size
 
+SHITOMASI detector
 ![SHITOMASI](/images/detectorDistribution/SHITOMASI.jpg)
+HARRIS detector
 ![HARRIS](/images/detectorDistribution/HARRIS.jpg)
+FAST detector
 ![FAST](/images/detectorDistribution/FAST.jpg)
+BRISK detector
 ![BRISK](/images/detectorDistribution/BRISK.jpg)
+ORB detector
 ![ORB](/images/detectorDistribution/ORB.jpg)
+AKAZE detector
 ![AKAZE](/images/detectorDistribution/AKAZE.jpg)
+SIFT detector
 ![SIFT](/images/detectorDistribution/SIFT.jpg)
 
 The images above shows us that ORB and HARRIS have less number of detected keypoints. SIFT, SHITOMASI and ORB have more keypoints and AKAZE, FAST and BRISK have even more keypoints. The keypoint neighborhood size tends to be bigger at the positions, where image content is more contrast, e.g. at the boundary of the preceding car.
