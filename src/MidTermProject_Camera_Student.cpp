@@ -196,6 +196,8 @@ double FeatureTracking(string detectorType,
                 string windowName = "Matching keypoints between two camera images";
                 cv::namedWindow(windowName, 7);
                 cv::imshow(windowName, matchImg);
+                string ImgName = detectorType + ".jpg";
+                cv::imwrite(ImgName, matchImg);
                 cout << "Press key to continue to next image" << endl;
                 cv::waitKey(0); // wait for key to be pressed
             }
@@ -219,7 +221,7 @@ int main(int argc, const char *argv[])
     string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
     string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
-    bool PerformanceEstimationEnable = true;
+    bool PerformanceEstimationEnable = false;
 
     double Time[6][10];
     int DetectedKeypoint[6][10];
@@ -231,7 +233,7 @@ int main(int argc, const char *argv[])
 
     if (!PerformanceEstimationEnable)
     {
-        FeatureTracking(detectorTypes[0], descriptorTypes[0], matcherType, descriptorType, selectorType, true,  &Time[0][0], &DetectedKeypoint[0][0], &MatchedKeypoint[0][0]);
+        FeatureTracking(detectorTypes[6], descriptorTypes[0], matcherType, descriptorType, selectorType, true,  &Time[0][0], &DetectedKeypoint[0][0], &MatchedKeypoint[0][0]);
         return 0;
     }
 
